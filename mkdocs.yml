@@ -1,10 +1,10 @@
 site_name: Your Working group Documentation
 theme:
   name: material
-  logo: assets/logos/enigma_300DPI_small.png
-  favicon: assets/logos/enigma_300DPI_small.png
+  logo: assets/logos/nichy_logo.png
+  favicon: assets/logos/nichy_logo.png
   palette:
-    primary: indigo
+    primary: yellow
   
 
 features:
@@ -15,19 +15,18 @@ nav:
 
   - About NICHY:    
     - Steering Committee: working_group/team.md
-    - Analysis team: 
+    - Analysis Team: working_group/analysis_team.md
+    - Legal Team: working_group/legal_team.md
     - Sites: working_group/existing_sites.md
     - Join us: working_group/join_us.md
     
   - Projects:    
     - Ongoing: projects/ongoing/overview.md
-    - Completed: projects/completed/overview.md
     - Propose a project: projects/propose_a_project.md
 
   - Resources:
     - How-to guides: resources/how_to_guides/overview.md
-    - Tools: resources/tools/overview.md
-
+    - Legal: resources/legal/legal.md
 
 markdown_extensions:
   - attr_list
