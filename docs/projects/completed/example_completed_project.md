@@ -1,3 +1,0 @@
-# Example Completed Project
-
-Description.

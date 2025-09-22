@@ -13,8 +13,9 @@ features:
 nav:
   - Welcome: index.md
 
-  - About XYZ WG:    
-    - Core team: working_group/team.md
+  - About NICHY:    
+    - Steering Committee: working_group/team.md
+    - Analysis team: 
     - Sites: working_group/existing_sites.md
     - Join us: working_group/join_us.md
     

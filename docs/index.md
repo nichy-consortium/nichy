@@ -1,12 +1,12 @@
-# Welcome to the ENIGMA-PD documentation page
+# Welcome to the NICHY website!
 
-The [ENIGMA Consortium](https://enigma.ini.usc.edu/about-2/) is an international effort by leaders worldwide. This site provides information on the XYZ WG team, ongoing and completed projects, and useful resources.  
+The NICHY Consortium is an international effort to study neuroimaging correlates of central disorders of hypersomnolence. This website provides information on the team behind the consortium, participating sites, and documentation for the first analysis.
 
 <div class="grid cards" markdown>
 
 - :fontawesome-solid-people-group:{ .lg .middle } __Team__
 
-    [:octicons-arrow-right-24: The people behind XYZ WG](working_group/team.md)
+    [:octicons-arrow-right-24: The people behind NICHY](working_group/team.md)
 
 - :fontawesome-solid-hospital-wide:{ .lg .middle } __Sites__
 
@@ -14,7 +14,7 @@ The [ENIGMA Consortium](https://enigma.ini.usc.edu/about-2/) is an international
 
 - :material-typewriter:{ .lg .middle } __Projects__
 
-    [:octicons-arrow-right-24: Ongoing and completed projects](projects/propose_a_project.md)
+    [:octicons-arrow-right-24: Ongoing](projects/freesurfer.md)
     
 - :material-brain:{ .lg .middle } __Resources__
 

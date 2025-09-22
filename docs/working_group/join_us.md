@@ -1,3 +1,3 @@
 # Useful information for new sites
 
-Interested in joining XYZ WG? Send us an email at mywg@email.org!
+Interested in joining NICHY? Please reach out to the working group chairs at yd.vanderwerf@amsterdamumc.nl and tt.dangvu@concordia.ca!
