@@ -4,7 +4,7 @@ theme:
   logo: assets/logos/nichy_logo.png
   favicon: assets/logos/nichy_logo.png
   palette:
-    primary: yellow
+    primary: amber
   
 
 features:
