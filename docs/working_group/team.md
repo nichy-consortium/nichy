@@ -26,7 +26,7 @@ COPY THIS TO ADD ANOTHER PERSON:
 - ![Stine](../assets/profile_pictures/stine.jpg){ width="80" } **[Stine Knudsen-Heier](https://www.ous-research.no/home/nevsom/Members/18873)**  
   Amsterdam UMC, Amsterdam, the Netherlands
 
-- ![Lynn Marie](../assets/profile_pictures/lynnmarie.jpg){ width="80" } **[Lynn Marie Trotti](https://med.emory.edu/directory/profile/?u=LBECKE2)**  
+- ![Lynn Marie](../assets/profile_pictures/lynnmarie.png){ width="80" } **[Lynn Marie Trotti](https://med.emory.edu/directory/profile/?u=LBECKE2)**  
   Amsterdam UMC, Amsterdam, the Netherlands
 
 - ![Sophie](../assets/profile_pictures/sophie.jpg){ width="80" } **[Sophie Schwartz](https://neurocenter-unige.ch/research-groups/sophie-schwartz/)**  
