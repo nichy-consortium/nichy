@@ -14,10 +14,10 @@ COPY THIS TO ADD ANOTHER PERSON:
  -->
 <div class="grid cards" markdown>
 
-- ![Ysbrand](../assets/profile_pictures/ysbrand.jpg){ width="80" } **[Ysbrand van der Werf](https://www.amsterdamumc.org/en/research/researchers/ysbrand-van-der-werf.htm)**  
+- ![Ysbrand](../assets/profile_pictures/ysbrand.jpg){ width="80" } **[Ysbrand van der Werf (Co-lead)](https://www.amsterdamumc.org/en/research/researchers/ysbrand-van-der-werf.htm)**  
   Amsterdam UMC, Amsterdam, the Netherlands
 
-- ![Thanh](../assets/profile_pictures/thanh.jpg){ width="80" } **[Thanh Dang-Vu](https://www.concordia.ca/faculty/thanh-dang-vu.html)**  
+- ![Thanh](../assets/profile_pictures/thanh.jpg){ width="80" } **[Thanh Dang-Vu (Co-lead)](https://www.concordia.ca/faculty/thanh-dang-vu.html)**  
   Concordia University, Montreal, Canada
 
 - ![Jari](../assets/profile_pictures/jari.jpg){ width="80" } **[Jari Gool](https://pure.amsterdamumc.nl/en/persons/jari-gool)**  
