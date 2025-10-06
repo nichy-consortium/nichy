@@ -2,11 +2,12 @@
 
 Our funding sponsors:
 
-<div class="grid cards" markdown="1">
+<div class="grid cards" markdown>
 
-<img src="../assets/logos/hypersomnia%20foundation.png" alt="Hypersomnia Foundation" width="150" />
+![Hypersomnia Foundation](../assets/logos/hypersomnia_foundation.png)
 
-</div>
-</div>
+![AASM](../assets/logos/AASM_Logo.jpg)
 
-<img src="../assets/logos/jazzpharma_logo_fullcolor.png" alt="Jazz Pharmaceuticals" width="170" />
+![Paladin](../assets/logos/Paladin_Labs.png)
+
+![Jazz](../assets/logos/jazzpharma_logo_fullcolor.png)
