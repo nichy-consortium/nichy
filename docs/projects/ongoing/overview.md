@@ -1,3 +1,3 @@
 # Overview of ongoing projects
 
-- [Example Project](./freesurfer.md)
+- [Freesurfer Project](./freesurfer.md)
