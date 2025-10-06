@@ -1,3 +1,3 @@
 # FreeSurfer project - brain morphology
 
-This project ...
+You can view the preregistration here: https://osf.io/8fdqc 
