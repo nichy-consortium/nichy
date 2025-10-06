@@ -102,26 +102,44 @@ If a suitable server is not available, **please reach out to the NICHY analysis 
 
 We will be using **containerized pipelines** for running FreeSurfer 7 segmentation, subsegmentations, the quality control script, and potentially BIDSification.  
 
-**What are containers?**  
-Containers are self-contained software environments that package **all the tools, dependencies, and code** needed to run an analysis. This ensures that each step is run **reproducibly and consistently**, regardless of the system you are using. Containers help avoid problems with software versions, missing packages, or different operating systems, which can otherwise make large-scale analyses difficult to replicate.
+#### What are containers? 
+We will be using containerized pipelines or "containers" for data processing. Containers are self-contained software environments that package **all the tools, dependencies, and code** needed to run an analysis. This ensures that each step is run **reproducibly and consistently**, regardless of the system you are using. Containers help avoid problems with software versions, missing packages, or different operating systems, which can otherwise make large-scale analyses difficult to replicate.
 
 To use containers, you need a **container platform**. We strongly recommend **Apptainer** (previously Singularity). These programs allow you to **download, manage, and run containerized pipelines** safely on Linux systems without needing admin rights. 
 
-You may already have Apptainer/Singularity installed. You can check by running `apptainer` or `singularity` in the command line of your server. If it gives an error, you may need to install it or load it into your environment (e.g., `module load apptainer`).  
+<img src="/docs/assets/images/container_infographic.png" alt="container infographic" width="50%">
+
+#### Checking for an existing installation
+You may already have Apptainer/Singularity installed on your machine. You can try this by simply running `apptainer` or `singularity` in your command line and see if it throws an error. Sometimes you will need to load it to your environment, for example by running `module load apptainer`. If you don't have a container platform installed, you can find how to do this below.
 
 #### Installing container software
-[Install Apptainer here](https://github.com/apptainer/apptainer/blob/main/INSTALL.md)  
+[Install Apptainer here](https://github.com/apptainer/apptainer/blob/main/INSTALL.md) 
 
-#### Downloading containers
+> **Note:** In some environments (e.g. shared servers), you may not be allowed to install software yourself. 
+> In that case, please contact your system administrators and request that they install Apptainer for you. 
 
-**For Apptainer:**
+#### Building and pulling containers
+Most containers used in scientific pipelines are built by developers and then hosted online (for example, on [Docker Hub](https://hub.docker.com/) or other registries). What you actually download is a **container image**, which is a file that packages all the necessary software and dependencies.  
+
+For Apptainer, this image is stored as a single `.sif` file (Singularity Image Format). You do not need to build everything from scratch, instead, you can **pull** the image from the cloud and convert it into a `.sif` container with a single command.  
+
+This process is:
+- **Reproducible** – everyone pulls the exact same software environment.  
+- **Safe** – the build command only creates the `.sif` file and does not change your system. 
+
+***Example command:**
+For Apptainer, run:
 ```bash
 apptainer build <pipeline>_<version>.sif \
-               docker://<repository>/<pipeline>:<version>
+                    docker://<repository>/<pipeline>:<version>
+```
 
+## Storing container images
+Nipoppy encourages the use of a common directory for storing container images, which can be shared across datasets/individuals. This directory can be anywhere on a system. 
+
+> **Note:** In the global config file, `<NIPOPPY_DPATH_CONTAINERS>` should be replaced by the actual path to that directory. We encourage you to create a symlink (= a shortcut pointing to another file or directory, allowing access from a different location without copying the original) from the `<DATASET_ROOT>/containers directory` inside the Nipoppy dataset to the shared container store location. This makes it easy for anyone inspecting the dataset to find the containers. If you create this symlink, you don’t need to set `<NIPOPPY_DPATH_CONTAINERS>` manually, because Nipoppy will automatically use `<DATASET_ROOT>/containers` by default.
 
 ## **1) Data organisation: Setting up Nipoppy
-[Nipoppy instructions](https://enigma-infra.github.io/resources/how_to_guides/setting_up_nipoppy/){:target="_blank"}**
 
 **Summary:**  
 Nipoppy is a lightweight framework for standardized data organization and processing of neuroimaging-clinical datasets. It helps users adopt the [FAIR principles](https://www.go-fair.org/fair-principles/){:target="_blank"} and improves reproducibility. The collaboration between large consortia (such as ENIGMA, NICHY) and the Nipoppy team has streamlined data curation, processing, and analysis workflows, simplifying tracking of data, addition of new pipelines, and upgrades of existing pipelines.  
@@ -132,6 +150,11 @@ To standardize dataset organization, ensure reproducibility, and facilitate smoo
 **Support:**  
 Join the [Nipoppy Discord channel](https://discord.gg/dQGYADCCMB){:target="_blank"} for questions and community support.  
 Full Nipoppy documentation is available [here](https://nipoppy.readthedocs.io/en/stable/index.html){:target="_blank"}.
+
+> **NICHY-specific note**
+> We recommend to name your data root folder (the folder that includes all data): `<your_cohort_nichy>`
+
+[Link to instructions](https://enigma-infra.github.io/resources/how_to_guides/setting_up_nipoppy/){:target="_blank"}**
 
 ---
 
@@ -182,7 +205,7 @@ To provide all the necessary information to perform reliable quality checks on c
 **Summary:**  
 Careful visual inspection of segmentations is the **most manual step** of this workflow and is essential to ensure the outputs are accurate and reliable. Even small errors or artifacts in images can lead to major mistakes in the brain segmentation. We will follow **standardized ENIGMA protocols**, with adjustments made for the Parkinson’s Disease working group, to assess the quality of cortical and subcortical segmentations.  
 
-**Note:** At this stage, visual quality assessment of the **subsegmentations** is **not required**, as there are no established protocols and the process would be highly time-consuming. Instead, statistical checks (e.g., outlier detection) will be used. A dedicated quality control procedure for subsegmentations may be developed in a future project when the necessary anatomical expertise is available.  
+> **Note:** At this stage, visual quality assessment of the **subsegmentations** is **not required**, as there are no established protocols and the process would be highly time-consuming. Instead, statistical checks (e.g., outlier detection) will be used. A dedicated quality control procedure for subsegmentations may be developed in a future project when the necessary anatomical expertise is available.  
 
 **Aim:**  
 To verify whether cortical and subcortical regions, or participants, can be safely included in the final analysis.
