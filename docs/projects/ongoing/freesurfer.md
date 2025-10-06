@@ -2,9 +2,11 @@
 
 ## About the project
 
-**Brain morphology in central disorders of hypersomnolence: First analysis from the global multi-site neuroimaging consortium NICHY**
+**Full title:** Brain morphology in central disorders of hypersomnolence: First analysis from the global multi-site neuroimaging consortium NICHY
 
 **Analysis leads:** Eva van Heese, Niels de Joode, and Keetje Voogd
+
+**Contact details:** e.vanheese@amsterdamumc.nl
 
 This project represents the **first analysis of the NICHY consortium**. This first study focuses on **brain morphology** of the **cortex and subcortex** using **T1-weighted MRI** data. Specifically, we aim to:  
 
