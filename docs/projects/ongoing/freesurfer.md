@@ -32,6 +32,29 @@ You can view the leaderboard here:
 > **Note:** With the above link, you can **view** the leaderboard but cannot make edits.  
 > To update your site’s progress, please **request editor rights** from the coordinating team.
 
+### Site survey
+
+If you have not done so yet, please complete this **short survey** (under 5 minutes).  
+It helps us understand the **current status of your data**, your **processing environment**, and any **support you may need**:  
+[Site survey](https://docs.google.com/forms/d/e/1FAIpQLSdORyRZCVdTuiS87djCiUK1fPGj6C6Ylt42YGFNKoDAZDmSNg/viewform)
+
+### Responsible person
+
+Each site should identify a **responsible person** to run the analysis.  
+
+- This **does not** need to be a radiologist or someone with extensive technical expertise.  
+- A motivated student or researcher can perform the processing steps using our manual and guidance.  
+- The key requirements are **motivation, time, and access to the MRI data**.  
+
+We estimate that **data organization and processing** will take a few hours per week for ~3 months. Sites who can dedicate more time may finish faster.  
+This responsible person will be listed as a **co-author** on the resulting manuscript.
+
+### General timeline
+
+- Data organisation and processing can begin **immediately** after the workshops (Oct 8/9) if your site is ready.  
+- We aim for **most centres to start preprocessing by the end of October**.  
+- We expect **most sites to finish by the end of 2025** (soft deadline). Extensions into the first months of 2026 are possible after consulting with the NICHY analysis team.
+
 ### Analysis workflow and documentation
 
 The workflow used for this project has been developed and thoroughly tested by the [**ENIGMA consortium**](https://enigma.ini.usc.edu/), which has a very similar structure to NICHY. On this page, we will link to ENIGMA resources for step-by-step guidance, and provide additional NICHY-specific information.
@@ -48,12 +71,130 @@ The tools selected for the analysis were chosen for two main reasons:
 
 While there may be an **initial learning curve**, once you complete the setup you will find the tools highly efficient and reliable for running analyses at your site.
 
-### Visual overview of the workflow
-
 *(Image to be added)*
 
 The figure below shows how the steps for data organisation and processing. Most of these steps will be performed using the **Nipoppy framework**, which automates and streamlines the workflow.  
 
 Each step is **numbered** and corresponds to the sections described below. The links in each section will take you to the **ENIGMA-infra** documentation, which provides more detailed instructions.
 
+### Guidance
 
+This page contains all the **relevant information** you need to run the analysis at your site. In addition, each site will be assigned **one of the three analysis team members** — Eva van Heese, Niels de Joode, or Keetje Voogd — for **personal guidance**.
+
+With your assigned team member, you will have:  
+
+- An **introduction meeting** to go over the workflow, tools, and any site-specific questions.  
+- **Regular check-ins** to monitor progress, troubleshoot issues, and ensure your site stays on track with the analysis.  
+
+---
+
+## System requirements
+
+### Linux server
+
+To run the analysis, you need access to a **Linux server**. The server should have enough storage and memory to handle MRI data and the processing steps. 
+
+If you are not sure whether you have access to a Linux server, please ask around at your institute, your IT department or colleagues in neuroimaging/research computing may be able to help.  
+
+If a suitable server is not available, **please reach out to the NICHY analysis team** for advice.
+
+### Using containers
+
+We will be using **containerized pipelines** for running FreeSurfer 7 segmentation, subsegmentations, the quality control script, and potentially BIDSification.  
+
+**What are containers?**  
+Containers are self-contained software environments that package **all the tools, dependencies, and code** needed to run an analysis. This ensures that each step is run **reproducibly and consistently**, regardless of the system you are using. Containers help avoid problems with software versions, missing packages, or different operating systems, which can otherwise make large-scale analyses difficult to replicate.
+
+To use containers, you need a **container platform**. We strongly recommend **Apptainer** (previously Singularity). These programs allow you to **download, manage, and run containerized pipelines** safely on Linux systems without needing admin rights. 
+
+You may already have Apptainer/Singularity installed. You can check by running `apptainer` or `singularity` in the command line of your server. If it gives an error, you may need to install it or load it into your environment (e.g., `module load apptainer`).  
+
+#### Installing container software
+[Install Apptainer here](https://github.com/apptainer/apptainer/blob/main/INSTALL.md)  
+
+#### Downloading containers
+
+**For Apptainer:**
+```bash
+apptainer build <pipeline>_<version>.sif \
+               docker://<repository>/<pipeline>:<version>
+
+
+## **1) Data organisation: Setting up Nipoppy
+[Nipoppy instructions](https://enigma-infra.github.io/resources/how_to_guides/setting_up_nipoppy/){:target="_blank"}**
+
+**Summary:**  
+Nipoppy is a lightweight framework for standardized data organization and processing of neuroimaging-clinical datasets. It helps users adopt the [FAIR principles](https://www.go-fair.org/fair-principles/){:target="_blank"} and improves reproducibility. The collaboration between large consortia (such as ENIGMA, NICHY) and the Nipoppy team has streamlined data curation, processing, and analysis workflows, simplifying tracking of data, addition of new pipelines, and upgrades of existing pipelines.  
+
+**Aim:**  
+To standardize dataset organization, ensure reproducibility, and facilitate smooth use of processing pipelines.  
+
+**Support:**  
+Join the [Nipoppy Discord channel](https://discord.gg/dQGYADCCMB){:target="_blank"} for questions and community support.  
+Full Nipoppy documentation is available [here](https://nipoppy.readthedocs.io/en/stable/index.html){:target="_blank"}.
+
+---
+
+## **2) Data processing**
+
+When you reach this point, the hardest part is behind you! We will now use the nipoppy framework to run three different processing pipelines. Check out [this page](https://nipoppy.readthedocs.io/en/latest/how_to_guides/user_guide/processing.html){:target="_blank"} for additional information about running processing pipelines with Nipoppy.
+
+### **Part A: Running FreeSurfer 7**
+
+**Summary:**  
+We will run FreeSurfer 7 using the fMRIPrep pipeline.  
+
+**Aim:**  
+To perform cortical and subcortical segmentation and extract standard brain morphometry measures.  
+
+**Pipeline name:** fmriprep 
+
+[Link to instructions](https://enigma-infra.github.io/resources/how_to_guides/freesurfer7/){:target="_blank"}
+
+### **Part B: Running the Subsegmentations** 
+
+**Summary:**  
+This **custom pipeline**, developed by the NICHY analysis team, uses the FreeSurfer output generated in part A. The pipeline runs additional FreeSurfer functionalities to extract **subnuclei volumes** from subcortical regions (e.g., thalamus, hippocampus, brainstem, hypothalamus, amygdala). It also runs [**Sequence Adaptive Multimodal SEGmentation (SAMSEG)**](https://surfer.nmr.mgh.harvard.edu/fswiki/Samseg) to calculate a better estimate for intracranial volume.
+
+**Aim:**  
+To obtain detailed subregional volumetric measures and a better estimate for intracranial volume for more precise morphometric analyses. 
+
+**Pipeline name:** freesurfer_subseg
+
+[Link to instructions](https://enigma-infra.github.io/resources/how_to_guides/freesurfer_subseg/){:target="_blank"}  
+
+### **Part C: Running the FreeSurfer Quality Control Toolbox (fsqc)**
+
+**Summary:**  
+[FreeSurfer Quality Control (FS-QC)](https://github.com/Deep-MI/fsqc) is used to assess the quality of FreeSurfer outputs, producing summary metrics and visual overviews, including tables and .html pages with screenshots for easy inspection.
+
+**Aim:**  
+To provide all the necessary information to perform reliable quality checks on cortical, subcortical, subnuclei segmentations.
+
+**Pipeline name:** fsqc
+
+[Link to instructions](https://enigma-infra.github.io/resources/how_to_guides/fsqc/){:target="_blank"}  
+
+---
+
+## **3) Quality control: visual inspection**  
+
+**Summary:**  
+Careful visual inspection of segmentations is the **most manual step** of this workflow and is essential to ensure the outputs are accurate and reliable. Even small errors or artifacts in images can lead to major mistakes in the brain segmentation. We will follow **standardized ENIGMA protocols**, with adjustments made for the Parkinson’s Disease working group, to assess the quality of cortical and subcortical segmentations.  
+
+**Note:** At this stage, visual quality assessment of the **subsegmentations** is **not required**, as there are no established protocols and the process would be highly time-consuming. Instead, statistical checks (e.g., outlier detection) will be used. A dedicated quality control procedure for subsegmentations may be developed in a future project when the necessary anatomical expertise is available.  
+
+**Aim:**  
+To verify whether cortical and subcortical regions, or participants, can be safely included in the final analysis.
+
+[Link to instructions](https://enigma-infra.github.io/resources/how_to_guides/qa/){:target="_blank"}
+
+---
+
+## **4) Data sharing**
+After completing all of the above steps, you're ready to share your derived data with the NICHY analysis team. Please:
+
+- Review the .tsv and Excel spreadsheets for completeness, ensuring all participants are included, there are no missing or unexpected data points, and quality assessment scores have been assigned to each ROI and participant.
+- Confirm whether you are authorized to share the quality check .png files. These will be used, along with your quality assessment scores, to help train automated machine learning models and (in the future) eliminate the need for manual checking in the future.
+
+Once these checks are complete, email your analysis contact person to receive instructions for uploading the .csv files and, if applicable, the QA .png files, via SFTP to our central storage on the Compute Canada server.
