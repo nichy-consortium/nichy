@@ -1,6 +1,5 @@
 # FreeSurfer project - brain morphology
 
-<<<<<<< HEAD
 ## About the project
 
 **Brain morphology in central disorders of hypersomnolence: First analysis from the global multi-site neuroimaging consortium NICHY**
