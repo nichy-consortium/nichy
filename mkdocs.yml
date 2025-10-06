@@ -22,7 +22,7 @@ nav:
     - Acknowledgements: working_group/acknowledgements.md
     
   - Projects:    
-    - Ongoing: projects/ongoing/overview.md
+    - Ongoing: projects/ongoing/freesurfer.md
     - Propose a project: projects/propose_a_project.md
 
   - Resources:
