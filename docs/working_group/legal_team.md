@@ -1,4 +1,4 @@
-# NICHY Steering Committee
+# NICHY Legal Team
 
 Meet the people from the legal team!
 
@@ -22,4 +22,5 @@ COPY THIS TO ADD ANOTHER PERSON:
   Amsterdam UMC, Amsterdam, the Netherlands
 
 </div>
+
 
