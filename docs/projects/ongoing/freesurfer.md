@@ -105,7 +105,7 @@ We will be using containerized pipelines or "containers" for data processing. Co
 
 To use containers, you need a **container platform**. We strongly recommend **Apptainer** (previously Singularity). These programs allow you to **download, manage, and run containerized pipelines** safely on Linux systems without needing admin rights. 
 
-<img src="../../assets/images/container_infographic.png" alt="container infographic" width="50%">
+![NICHY Freesurfer workflow](../../assets/images/container_infographic.png)
 
 #### Checking for an existing installation
 You may already have Apptainer/Singularity installed on your machine. You can try this by simply running `apptainer` or `singularity` in your command line and see if it throws an error. Sometimes you will need to load it to your environment, for example by running `module load apptainer`. If you don't have a container platform installed, you can find how to do this below.
