@@ -26,7 +26,6 @@ nav:
     - Propose a project: projects/propose_a_project.md
 
   - Resources:
-    - How-to guides: resources/how_to_guides/overview.md
     - Legal: resources/legal/legal.md
 
 markdown_extensions:
