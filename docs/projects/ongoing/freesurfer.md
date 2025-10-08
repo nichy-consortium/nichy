@@ -71,11 +71,9 @@ The tools selected for the analysis were chosen for two main reasons:
 
 While there may be an **initial learning curve**, once you complete the setup you will find the tools highly efficient and reliable for running analyses at your site.
 
-![NICHY Freesurfer workflow](docs/assets/images/NICHY_freesurfer_workflow.jpg)
+The figure below shows how the steps for data organisation and processing. Most of these steps will be performed using the **Nipoppy framework**, which automates and streamlines the workflow. The links in each section in this document will take you to the **ENIGMA-infra** documentation, which provides more detailed instructions.
 
-The figure below shows how the steps for data organisation and processing. Most of these steps will be performed using the **Nipoppy framework**, which automates and streamlines the workflow.  
-
-Each step is **numbered** and corresponds to the sections described below. The links in each section will take you to the **ENIGMA-infra** documentation, which provides more detailed instructions.
+![NICHY Freesurfer workflow](../../assets/images/NICHY_freesurfer_workflow.jpg)
 
 ### Guidance
 
@@ -107,7 +105,7 @@ We will be using containerized pipelines or "containers" for data processing. Co
 
 To use containers, you need a **container platform**. We strongly recommend **Apptainer** (previously Singularity). These programs allow you to **download, manage, and run containerized pipelines** safely on Linux systems without needing admin rights. 
 
-<img src="docs/assets/images/container_infographic.png" alt="container infographic" width="50%">
+<img src="../../assets/images/container_infographic.png" alt="container infographic" width="50%">
 
 #### Checking for an existing installation
 You may already have Apptainer/Singularity installed on your machine. You can try this by simply running `apptainer` or `singularity` in your command line and see if it throws an error. Sometimes you will need to load it to your environment, for example by running `module load apptainer`. If you don't have a container platform installed, you can find how to do this below.
