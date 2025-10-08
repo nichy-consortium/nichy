@@ -1,10 +1,7 @@
 # NICHY projects
 
+You are welcome to submit your own project proposal. To do so, download and complete this document: 
 
-<div class="grid cards" markdown>
+[Propose_Project_NICHY.docx](https://github.com/user-attachments/files/22771069/Propose_Project_NICHY.docx)
 
-![Propose a project](docs/assets/Propose_Project_NICHY.docx)
-
-</div>
-
-
+and send it to @nichy.consortium@gmail.com 
