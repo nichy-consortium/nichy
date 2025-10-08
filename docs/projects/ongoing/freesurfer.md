@@ -71,7 +71,7 @@ The tools selected for the analysis were chosen for two main reasons:
 
 While there may be an **initial learning curve**, once you complete the setup you will find the tools highly efficient and reliable for running analyses at your site.
 
-*(Image to be added)*
+![NICHY Freesurfer workflow](docs/assets/images/NICHY_freesurfer_workflow.jpg)
 
 The figure below shows how the steps for data organisation and processing. Most of these steps will be performed using the **Nipoppy framework**, which automates and streamlines the workflow.  
 
@@ -107,7 +107,7 @@ We will be using containerized pipelines or "containers" for data processing. Co
 
 To use containers, you need a **container platform**. We strongly recommend **Apptainer** (previously Singularity). These programs allow you to **download, manage, and run containerized pipelines** safely on Linux systems without needing admin rights. 
 
-<img src="/docs/assets/images/container_infographic.png" alt="container infographic" width="50%">
+<img src="docs/assets/images/container_infographic.png" alt="container infographic" width="50%">
 
 #### Checking for an existing installation
 You may already have Apptainer/Singularity installed on your machine. You can try this by simply running `apptainer` or `singularity` in your command line and see if it throws an error. Sometimes you will need to load it to your environment, for example by running `module load apptainer`. If you don't have a container platform installed, you can find how to do this below.
@@ -139,7 +139,7 @@ Nipoppy encourages the use of a common directory for storing container images, w
 
 > **Note:** In the global config file, `<NIPOPPY_DPATH_CONTAINERS>` should be replaced by the actual path to that directory. We encourage you to create a symlink (= a shortcut pointing to another file or directory, allowing access from a different location without copying the original) from the `<DATASET_ROOT>/containers directory` inside the Nipoppy dataset to the shared container store location. This makes it easy for anyone inspecting the dataset to find the containers. If you create this symlink, you don’t need to set `<NIPOPPY_DPATH_CONTAINERS>` manually, because Nipoppy will automatically use `<DATASET_ROOT>/containers` by default.
 
-## **1) Data organisation: Setting up Nipoppy
+## **1) Data organisation: Setting up Nipoppy**
 
 **Summary:**  
 Nipoppy is a lightweight framework for standardized data organization and processing of neuroimaging-clinical datasets. It helps users adopt the [FAIR principles](https://www.go-fair.org/fair-principles/){:target="_blank"} and improves reproducibility. The collaboration between large consortia (such as ENIGMA, NICHY) and the Nipoppy team has streamlined data curation, processing, and analysis workflows, simplifying tracking of data, addition of new pipelines, and upgrades of existing pipelines.  
@@ -154,7 +154,7 @@ Full Nipoppy documentation is available [here](https://nipoppy.readthedocs.io/en
 > **NICHY-specific note**
 > We recommend to name your data root folder (the folder that includes all data): `<your_cohort_nichy>`
 
-[Link to instructions](https://enigma-infra.github.io/resources/how_to_guides/setting_up_nipoppy/){:target="_blank"}**
+[Link to instructions](https://enigma-infra.github.io/resources/how_to_guides/setting_up_nipoppy/){:target="_blank"}
 
 ---
 
