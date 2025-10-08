@@ -1,6 +1,6 @@
 # NICHY Steering Committee
 
-Meet the people in the steering committee!
+Meet the people from the legal team!
 
 <!-- 
 The section below uses a special mix of markdown and HTML to make pretty cards.
@@ -12,12 +12,14 @@ COPY THIS TO ADD ANOTHER PERSON:
   City University, The Country
 
  -->
+
 <div class="grid cards" markdown>
 
-- ![Ysbrand](../assets/profile_pictures/ysbrand.jpeg){ width="80" } **[Ysbrand van der Werf](https://www.amsterdamumc.org/en/research/researchers/ysbrand-van-der-werf.htm)**  
+- ![Ysbrand](../assets/profile_pictures/ysbrand.jpg){ width="80" } **[Ysbrand van der Werf (Co-lead)](https://www.amsterdamumc.org/en/research/researchers/ysbrand-van-der-werf.htm)**  
   Amsterdam UMC, Amsterdam, the Netherlands
 
-- ![Jari](../assets/profile_pictures/jari.jpeg){ width="80" } **[Jari Gool](https://pure.amsterdamumc.nl/en/persons/jari-gool)**  
+- ![Jari](../assets/profile_pictures/jari.jpg){ width="80" } **[Jari Gool](https://pure.amsterdamumc.nl/en/persons/jari-gool)**  
   Amsterdam UMC, Amsterdam, the Netherlands
 
 </div>
+
