@@ -14,7 +14,7 @@ The NICHY Consortium is an international effort to study neuroimaging correlates
 
 - :material-typewriter:{ .lg .middle } __Projects__
 
-    [:octicons-arrow-right-24: Ongoing](projects/overview.md)
+    [:octicons-arrow-right-24: Ongoing](projects/ongoing/overview.md)
     
 - :material-brain:{ .lg .middle } __Resources__
 
