@@ -5,4 +5,5 @@
 <br/>
 <br/>
 
-[Propose a Project](docs/projects/propose_a_project.md)
+[Propose a Project](../propose_a_project.md)
+
