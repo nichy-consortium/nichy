@@ -8,10 +8,6 @@ The NICHY Consortium is an international effort to study neuroimaging correlates
 
     [:octicons-arrow-right-24: About the consortium](working_group/aubout_the_consortium.md)
 
-- :fontawesome-solid-handshake:{ .lg .middle } __Join__
-
-    [:octicons-arrow-right-24: Join NICHY!](working_group/join_us.md)
-
 - :fontawesome-solid-people-group:{ .lg .middle } __Team__
 
     [:octicons-arrow-right-24: The people behind NICHY](working_group/team.md)
@@ -28,6 +24,11 @@ The NICHY Consortium is an international effort to study neuroimaging correlates
 - :material-brain:{ .lg .middle } __Resources__
 
     [:octicons-arrow-right-24: Helpful guides and tools](resources/how_to_guides/overview.md)
+
+
+- :fontawesome-solid-handshake:{ .lg .middle } __Join__
+
+    [:octicons-arrow-right-24: Join NICHY!](working_group/join_us.md)
 
 
 </div>
