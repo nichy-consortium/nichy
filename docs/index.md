@@ -3,6 +3,14 @@
 The NICHY Consortium is an international effort to study neuroimaging correlates of central disorders of hypersomnolence. This website provides information on the team behind the consortium, participating sites, and documentation for the first analysis.
 
 <div class="grid cards" markdown>
+    
+- :fontawesome-solid-info-circle:{ .lg .middle } __About__ 
+
+    [:octicons-arrow-right-24: About the consortium](working_group/aubout_the_consortium.md)
+
+- :fontawesome-solid-handshake:{ .lg .middle } __Join__
+
+    [:octicons-arrow-right-24: Join NICHY!](working_group/join_us.md)
 
 - :fontawesome-solid-people-group:{ .lg .middle } __Team__
 
@@ -20,6 +28,7 @@ The NICHY Consortium is an international effort to study neuroimaging correlates
 - :material-brain:{ .lg .middle } __Resources__
 
     [:octicons-arrow-right-24: Helpful guides and tools](resources/how_to_guides/overview.md)
+
 
 </div>
 
