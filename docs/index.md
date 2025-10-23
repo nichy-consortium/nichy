@@ -23,5 +23,5 @@ The NICHY Consortium is an international effort to study neuroimaging correlates
 
 </div>
 
-![Logo](https://github.com/nichy-consortium/nichy/blob/main/docs/assets/logos/nichy_logo.png) 
+![Logo](https://raw.githubusercontent.com/nichy-consortium/nichy/main/docs/assets/logos/nichy_logo.png)
 
