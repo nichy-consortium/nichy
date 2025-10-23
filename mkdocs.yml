@@ -13,7 +13,8 @@ features:
 nav:
   - Welcome: index.md
 
-  - About NICHY:    
+  - About NICHY:  
+    - The consortium: working_group/about_the_consortium.md
     - Steering Committee: working_group/team.md
     - Analysis Team: working_group/analysis_team.md
     - Legal Team: working_group/legal_team.md
