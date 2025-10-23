@@ -24,4 +24,4 @@ Participating sites retain **full ownership** of their data. Responsibility for 
 NICHY provides an open framework for collaboration, allowing sites to propose new studies while ensuring data privacy and adherence to local regulations.
 
 
-![Logo](../../assets/images/logo.jpg)
+![Logo](https://github.com/nichy-consortium/nichy/blob/main/docs/assets/logos/nichy_logo.png)
