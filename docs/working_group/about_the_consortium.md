@@ -1,4 +1,5 @@
 # About the NICHY consortium
+<img src="https://raw.githubusercontent.com/nichy-consortium/nichy/main/docs/assets/logos/nichy_logo.png" alt="Logo" width="300">
 
 
 The NeuroImaging Consortium in Central Disorders of Hypersomnolence (NICHY) is an established international research consortium dedicated to understanding the neurobiological mechanisms underlying central disorders of hypersomnolence (CDH) through **large-scale, collaborative neuroimaging studies**. NICHY integrates structural and functional MRI data across multiple sites worldwide to identify robust imaging markers associated with CDH, including narcolepsy type 1 (NT1), narcolepsy type 2 (NT2), and idiopathic hypersomnia (IH), as well as healthy controls.  
@@ -22,4 +23,3 @@ Participating sites retain **full ownership** of their data. Responsibility for 
 
 NICHY provides an open framework for collaboration, allowing sites to propose new studies while ensuring data privacy and adherence to local regulations.
 
-![Logo](https://raw.githubusercontent.com/nichy-consortium/nichy/main/docs/assets/logos/nichy_logo.png)
