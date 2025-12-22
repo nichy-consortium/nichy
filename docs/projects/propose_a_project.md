@@ -4,4 +4,4 @@ You are welcome to submit your own project proposal. To do so, download and comp
 
 [Propose_Project_NICHY.docx](https://github.com/user-attachments/files/22771177/Propose_Project_NICHY.docx)
 
-and send it to nichy@amsterdamumc.nl
+And send it to **nichy@amsterdamumc.nl**
