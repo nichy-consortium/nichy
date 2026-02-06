@@ -53,7 +53,7 @@ This responsible person will be listed as a **co-author** on the resulting manus
 
 - Data organisation and processing can begin **immediately** after the workshops (Oct 8/9) if your site is ready.  
 - We aim for **most centres to start preprocessing by the end of October**.  
-- We expect **most sites to finish by spring 2026**. Extensions into the first months of 2026 are possible after consulting with the NICHY analysis team.
+- We expect **most sites to finish by spring 2026**. Extension of the deadline is possible after consulting with the NICHY analysis team.
 
 ### Analysis workflow and documentation
 
