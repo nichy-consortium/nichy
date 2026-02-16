@@ -18,24 +18,24 @@ COPY THIS TO ADD ANOTHER PERSON:
   Amsterdam UMC, Amsterdam, the Netherlands
 
 - ![Thanh](../assets/profile_pictures/thanh.jpg){ width="80" } **[Thanh Dang-Vu (Co-lead)](https://www.concordia.ca/faculty/thanh-dang-vu.html)**  
-  Concordia University, Montreal, Canada
+  Concordia University, Montréal, Canada
 
 - ![Jari](../assets/profile_pictures/jari.jpg){ width="80" } **[Jari Gool](https://pure.amsterdamumc.nl/en/persons/jari-gool)**  
-  Amsterdam UMC, Amsterdam, the Netherlands
+  Amsterdam UMC, Amsterdam | Sleep-Wake Center SEIN, Heemstede | LUMC, Leiden The Netherlands
 
 - ![Stine](../assets/profile_pictures/stine.jpg){ width="80" } **[Stine Knudsen-Heier](https://www.ous-research.no/home/nevsom/Members/18873)**  
-  Amsterdam UMC, Amsterdam, the Netherlands
+  Oslo University Hospital, Oslo, Norway
 
 - ![Lynn Marie](../assets/profile_pictures/lynnmarie.png){ width="80" } **[Lynn Marie Trotti](https://med.emory.edu/directory/profile/?u=LBECKE2)**  
-  Amsterdam UMC, Amsterdam, the Netherlands
+  Emory University, Atlanta, United States
 
 - ![Sophie](../assets/profile_pictures/sophie.jpg){ width="80" } **[Sophie Schwartz](https://neurocenter-unige.ch/research-groups/sophie-schwartz/)**  
-  Amsterdam UMC, Amsterdam, the Netherlands
+  Université de Genève, Geneva, Switzerland
 
 - ![Rolf](../assets/profile_pictures/rolf.jpg){ width="80" } **[Rolf Fronczek](https://www.lumc.nl/afdelingen/neurologie/r-fronczek/)**  
-  Amsterdam UMC, Amsterdam, the Netherlands
+  Sleep-Wake Center SEIN, Heemstede | LUMC, Leiden The NetherlandsAmsterdam UMC, Amsterdam, the Netherlands
 
 - ![Gert Jan](../assets/profile_pictures/gertjan.jpg){ width="80" } **[Gert Jan Lammers](https://www.lumc.nl/en/afdelingen/neurologie/gj-lammers/)**  
-  Amsterdam UMC, Amsterdam, the Netherlands
+  Sleep-Wake Center SEIN, Heemstede | LUMC, Leiden The Netherlands
 
 </div>
