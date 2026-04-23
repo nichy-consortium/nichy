@@ -3,7 +3,7 @@ All participating sites are welcome to contribute data to NICHY projects if thei
 
 - Diagnosis of NT1, NT2, **or** IH according to the International Classification of Sleep Disorders, Third Edition (ICSD-3), **or** healthy control status
 - Available structural and/or functional MRI data 
-- There is **no minimum** number of participants required per site or scanner.
+- Sites are required to provide **at least 10 participants per scanner**, all acquired with the same sequence, to support data harmonization.
 
 Participating sites retain **full ownership** of their data. Responsibility for obtaining ethical approval, informed consent, and data protection compliance, rests with each participating site. 
 
