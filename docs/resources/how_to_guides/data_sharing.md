@@ -4,7 +4,7 @@
 Once you have completed all the steps, your derived data is ready to be shared with the server in Amsterdam, where it will be accessible to the NICHY core team and project leads (following opt-in). All data will remain on this server. Before transferring, please take the following steps:
 
 - **Review the .tsv and Excel files to confirm completeness**. Verify that all participants are included, there are no missing or unexpected values, and that quality assessment scores have been assigned to each ROI and participant.
-- If your site has a preferred data transfer method (different from those described below), please let us know and we will do our best to accommodate it. Be sure to confirm this with your PI and consult your data transfer agreement beforehand.
+- If your site has a preferred data transfer method (different from the one described below), please let us know and we will do our best to accommodate it. Be sure to confirm this with your PI and consult your data transfer agreement beforehand.
 
 ## Data to be shared
 
