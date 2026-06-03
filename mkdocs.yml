@@ -28,6 +28,7 @@ nav:
 
   - Resources:
     - Legal: resources/legal/legal.md
+    - Data sharing: resources/how_to_guides/data_sharing.md
 
 markdown_extensions:
   - attr_list
