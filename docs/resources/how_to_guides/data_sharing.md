@@ -64,6 +64,6 @@ For this, you can use the personal invitation link that you will receive by emai
 
 The voucher link will be valid for 60 days, so please use it in time. If you did not receive the email, cannot find it, or need a new link, please reach out to the NICHY core team.
 
-#### Option 2: Upload via command line
+#### Option 2: Upload files via the command line
 
 This option is available if you have a SURF account (available to all Dutch educational institutions) or an eduID (a guest account for SURF services). If you do not have either, you can request an eduID at [eduid.nl](eduid.nl). Full instructions for setting up and using the SURF CLI client can be found [here](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/198967770/SURFfilesender+CLI+client). In short, the process involves downloading the Python CLI client from your SURFfilesender profile page, installing a few standard Python dependencies (which are present on most systems), configuring the client with your username and API key from the same profile page, and then running the client with the recipient address and file path to upload your data.
