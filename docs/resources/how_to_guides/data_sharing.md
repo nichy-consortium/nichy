@@ -59,7 +59,7 @@ If your site already has a spreadsheet containing the clinical and demographic v
 We provide the possibility to send the data securely and encrypted using [SURFfilesender](https://www.surf.nl/en/services/storage-data-management/surffilesender). 
 
 #### Option 1: Upload files via browser
-For this, you can use the personal invitation link that you will receive by email. This email has been sent from **SURFfilesender \<noreply@surf.nl\>** on behalf of our team, so please check your spam or junk folder if you do not see it in your inbox. The email will contain a voucher link and will look something like this:
+For this, you can use the personal invitation link that you will receive by email. This email has been sent from **SURFfilesender <noreply@surf.nl\>** on behalf of our team, so please check your spam or junk folder if you do not see it in your inbox. The email will contain a voucher link and will look something like this:
 >*"Please find below a voucher which grants access to SURFfilesender. You can use this voucher to upload one set of files and make it available for download."*
 
 The voucher link will be valid for 60 days, so please use it in time. If you did not receive the email, cannot find it, or need a new link, please reach out to the NICHY core team.
