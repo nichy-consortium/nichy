@@ -41,17 +41,19 @@ Quality control output (2 spreadsheet, optionally .png files)
 
 Depending on your site's situation, we ask you to share clinical and demographic data using one of the following three options:
 
-### Option 1: Manual entry via Castor (prospective sites or small N)
+### Option 1: Sharing an existing spreadsheet
 
-If your site is just getting started or has a relatively small number of participants, you can enter your data directly into our Castor database. Please send us an email and we will provide you with access and instructions. No data dictionary is needed for this option.
+If your site already has a spreadsheet containing the clinical and demographic variables for all participants, you can share this directly. Please make sure the file is in a machine-readable format: a single CSV or TSV file is preferred, with all variables as columns and all participants as rows. Avoid Excel files with multiple tabs, merged cells, or comments. For this option, we ask you to create a data dictionary using Neurobagel. We are currently finalizing our list with variables of interest and instructions on how to use Neurobagel. More information soon!
 
-### Option 2: EU-NN data sharing
+### Option 2: Manual entry via Castor (prospective sites or small N)
 
-If your site is part of the EU-NN, we can request the relevant data directly from the EU-NN on your behalf, with your permission. Please reach out to the NICHY core team to arrange this. For this option, we ask you to create a data dictionary using [Neurobagel](https://enigma-infra.github.io/ENIGMA-PD/resources/how_to_guides/neurobagel/).
+If your site is just getting started or has a relatively small number of participants, you can enter your data directly into our Castor database. More information about data entry using Castor can be found [here](https://helpdesk.castoredc.com/hc/en-us/articles/27071695733277-Doing-data-entry-in-CDMS). Please send us an email and we will provide you with access and instructions. No data dictionary is needed for this option.
 
-### Option 3: Sharing an existing spreadsheet
+### Option 3: EU-NN data sharing
 
-If your site already has a spreadsheet containing the clinical and demographic variables for all participants, you can share this directly. Please make sure the file is in a machine-readable format: a single CSV or TSV file is preferred, with all variables as columns and all participants as rows. Avoid Excel files with multiple tabs, merged cells, or comments. For this option, we ask you to create a data dictionary using [Neurobagel](https://enigma-infra.github.io/ENIGMA-PD/resources/how_to_guides/neurobagel/). 
+If your participants are also included in the EU-NN database, you can request an export of the relevant data directly from the EU-NN. This requires an export of your EU-NN data accompanied by a reference file with matching MRI IDs, as well as some more data that is not included in the EU-NN. Please reach out to the NICHY core team to arrange this. 
+
+
 
 ## Data sharing protocol
 
