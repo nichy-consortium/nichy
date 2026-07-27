@@ -45,7 +45,7 @@ Please share all available clinical and demographic data using one of the follow
 
 Our general recommendation is to share all available data. If you want some guidance on what variables we are interested in, please check out our [NICHY variable list](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0).
 
-### Option 1: Sharing an existing spreadsheet
+### Option 1: Sharing an existing spreadsheet (recommended)
 
 If your site already has a spreadsheet containing the clinical and demographic variables for all participants, you can share this directly as a single TSV (tab-separated values) file, with all variables as columns and all participants as rows. **Avoid Excel files with multiple tabs, merged cells, or comments, as these are difficult to parse and combine across sites.**
 
