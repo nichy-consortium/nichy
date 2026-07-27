@@ -14,11 +14,6 @@ NICHY has compiled a curated list of variables relevant to central disorders of 
 !!! info "Expanding our NICHY variable list"
     We are still developing our NICHY variable list. If your site collects variables that other NICHY sites may also have, and that could be valuable for current or future NICHY projects, please reach out to us. 
 
-### What this step provides
-- A consortium-wide reference list of clinically relevant variables for hypersomnolence research.
-- A controlled vocabulary that appears directly inside the Neurobagel Annotation Tool.
-- A mechanism for sites to suggest additional variables.
-
 **Check out the NICHY variable list [here!](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0)**
 
 ---
