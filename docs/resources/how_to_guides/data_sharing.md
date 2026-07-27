@@ -52,6 +52,8 @@ For this option, we ask you to create a **data dictionary** using Neurobagel. A 
 !!! warning "What to upload?"
     Upload both the clinical data spreadsheet and the data dictionary (NICHY_[YourSiteName]_clinicaldata_annotated.json) to the SURFdrive folder for your site.
 
+![Neurobagel-Annotation](../../assets/images/Neurobagel_annotation_screenshot.png)
+
 ### Option 2: Manual entry via Castor (prospective sites or small N)
 
 If your site is just getting started or has a relatively small number of participants, you can enter your data directly into Castor, a clinical data management platform. Only you, the NICHY core team and approved project leads will have access to your participants' data. More information about data entry using Castor can be found [here](https://helpdesk.castoredc.com/hc/en-us/articles/27071695733277-Doing-data-entry-in-CDMS). If you want to proceed with this option, please send us an email and we will provide you with access and instructions. No data dictionary is needed for this option.
