@@ -41,9 +41,16 @@ Quality control output (2 spreadsheet, optionally .png files)
 
 Please share all available clinical and demographic data using one of the following three options. It is important for us to receive as comprehensive a dataset as possible so we can identify which variables are available across NICHY sites and conduct analyses with maximum clinical detail.
 
+Our general recommendation is to share all available data. If you want some guidance on what variables we are interested in, please check out our [NICHY variable list](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0).
+
 ### Option 1: Sharing an existing spreadsheet
 
-If your site already has a spreadsheet containing the clinical and demographic variables for all participants, you can share this directly. Please make sure the file is in a machine-readable format: a single CSV or TSV file is preferred, with all variables as columns and all participants as rows. Avoid Excel files with multiple tabs, merged cells, or comments. For this option, we ask you to create a data dictionary using Neurobagel. We are currently finalizing our list with variables of interest and instructions on how to use Neurobagel. More information soon!
+If your site already has a spreadsheet containing the clinical and demographic variables for all participants, you can share this directly as a single TSV (tab-separated values) file, with all variables as columns and all participants as rows. **Avoid Excel files with multiple tabs, merged cells, or comments, as these are difficult to parse and combine across sites.**
+
+For this option, we ask you to create a data dictionary using Neurobagel. Convert your spreadsheet to a TSV format and follow the detailed instructions on our [Neurobagel data annotation page](./Neurobagel_data_annotation.md). Please name your file as follows: NICHY_[YourSiteName]_clinicaldata.tsv (for example: NICHY_Amsterdam_clinicaldata.tsv). 
+
+!!! warning "What to upload?"
+    Upload both the clinical data spreadsheet and the data dictionary (NICHY_[YourSiteName]_clinicaldata_annotated.json) to the SURFdrive folder for your site.
 
 ### Option 2: Manual entry via Castor (prospective sites or small N)
 
@@ -51,9 +58,15 @@ If your site is just getting started or has a relatively small number of partici
 
 ![Castor data entry screenshot](../../assets/images/Castor_Screenshot.png)
 
+!!! warning "What to upload?"
+    The clinical data sharing will go through Castor, you do not need to upload any clinical data to the SURFdrive folder for your site.
+
 ### Option 3: EU-NN data sharing
 
 If your participants are also included in the EU-NN database, you can request an export of the relevant data directly from the EU-NN. This requires an export of your EU-NN data accompanied by a reference file with matching MRI IDs, as well as some more data that is not included in the EU-NN. Please reach out to the NICHY core team to arrange this. 
+
+!!! warning "What to upload?"
+    Upload the EU-NN export and the reference file to the SURFdrive folder for your site. For the additional requested clinical data that is not included in the EU-NN, share these using either Option 1 (spreadsheet format) or Option 2 (Castor entry). Include the corresponding data dictionary if you choose the spreadsheet route.
 
 ## Data upload via SURFdrive
 
