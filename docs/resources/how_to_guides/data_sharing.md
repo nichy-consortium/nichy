@@ -49,6 +49,8 @@ If your site already has a spreadsheet containing the clinical and demographic v
 
 If your site is just getting started or has a relatively small number of participants, you can enter your data directly into our Castor database. More information about data entry using Castor can be found [here](https://helpdesk.castoredc.com/hc/en-us/articles/27071695733277-Doing-data-entry-in-CDMS). Please send us an email and we will provide you with access and instructions. No data dictionary is needed for this option.
 
+![Castor data entry screenshot](../../assets/images/Castor_Screenshot.png)
+
 ### Option 3: EU-NN data sharing
 
 If your participants are also included in the EU-NN database, you can request an export of the relevant data directly from the EU-NN. This requires an export of your EU-NN data accompanied by a reference file with matching MRI IDs, as well as some more data that is not included in the EU-NN. Please reach out to the NICHY core team to arrange this. 
@@ -58,3 +60,5 @@ If your participants are also included in the EU-NN database, you can request an
 We provide a secure and encrypted method to send your data using [SURFdrive, SURF's community cloud storage service for Dutch education and research](https://www.surf.nl/en/services/storage-data-management/surfdrive).
 
 Using the personalized link you received via email, please upload your derived MRI data and (depending on the clinical data option you selected above) the corresponding clinical data. Once uploaded, we will securely transfer the data to our servers for statistical analysis within the NICHY study.
+
+![SURFdrive upload interface](../../assets/images/SURF_Drive_Screenshot.png)
