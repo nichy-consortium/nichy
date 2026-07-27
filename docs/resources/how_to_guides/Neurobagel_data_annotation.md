@@ -30,7 +30,9 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 
 ![Neurobagel-NICHY-Configuration](../../assets/images/Neurobagel_NICHY_screenshot.png)
 
-- Upload a TSV file containing demographic and clinical variables (if you still need to convert your data from CSV or Excel, see the [Neurobagel documentation on TSVs](https://neurobagel.org/glossary/#tsv). Note: Excel does not have a native TSV export option, but you can export as "Text (Tab delimited) .txt" and then rename the file extension to .tsv). Please annotate **all clinical and demographic** variables available in your dataset.
+- Upload a TSV file containing demographic and clinical variables
+    If you still need to convert your data from CSV or Excel, see the [Neurobagel documentation on TSVs](https://neurobagel.org/glossary/#tsv). Note: Excel does not have a native TSV export option, but you can export as "Text (Tab delimited) .txt" and then rename the file extension to .tsv).
+- Please annotate **all clinical and demographic** variables available in your dataset.
 
 !!! info "Item-level data is valuable"
     If your site has individual item scores available, we encourage you to share and annotate these alongside the total scores. For example, if you have the Epworth Sleepiness Scale (ESS), sharing the responses to each of the eight items provides more flexibility for future analyses. Item-level data allows for more detailed analyses across NICHY projects and may reveal patterns that total scores alone cannot capture.
