@@ -28,7 +28,7 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 - Go to [https://beta-annotate.neurobagel.org/](https://beta-annotate.neurobagel.org/).
 - Select **NICHY** as configuration.
 
-![Neurobagel-NICHY-Configuration](../../docs/assets/images/Neurobagel_NICHY_screenshot.png)
+![Neurobagel-NICHY-Configuration](../../assets/images/Neurobagel_NICHY_screenshot.png)
 
 - Upload a TSV file containing demographic and clinical variables (if you still need to convert your data from CSV or Excel, see the [Neurobagel documentation on TSVs](https://neurobagel.org/glossary/#tsv). Note: Excel does not have a native TSV export option, but you can export as "Text (Tab delimited) .txt" and then rename the file extension to .tsv). Please annotate **all clinical and demographic** variables available in your dataset.
 
