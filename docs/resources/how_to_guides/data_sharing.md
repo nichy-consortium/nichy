@@ -84,6 +84,6 @@ If your participants are also included in the EU-NN database, you can request an
 
 We provide a secure and encrypted method to send your data using [SURFdrive, SURF's community cloud storage service for Dutch education and research](https://www.surf.nl/en/services/storage-data-management/surfdrive).
 
-Using the personalized link you received via email, please upload your derived MRI data and (depending on the clinical data option you selected above) the corresponding clinical data. Once uploaded, we will securely transfer the data to our servers for statistical analysis within the NICHY study.
+Using the personalized link you received via email, please upload your derived MRI data and (depending on the clinical data option you selected above) the corresponding clinical data. Once uploaded, we will securely transfer the data to our servers for statistical analysis.
 
 ![SURFdrive upload interface](../../assets/images/SURF_Drive_Screenshot.png)
