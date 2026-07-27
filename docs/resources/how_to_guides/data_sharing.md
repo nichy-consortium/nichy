@@ -45,6 +45,8 @@ Please share all available clinical and demographic data using one of the follow
 
 Our general recommendation is to share all available data. If you want some guidance on what variables we are interested in, please check out our [NICHY variable list](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0).
 
+<br>
+
 ### Option 1: Sharing an existing spreadsheet (recommended)
 
 If your site already has a spreadsheet containing the clinical and demographic variables for all participants, you can share this directly as a single TSV (tab-separated values) file, with all variables as columns and all participants as rows. **Avoid Excel files with multiple tabs, merged cells, or comments, as these are difficult to parse and combine across sites.**
@@ -58,7 +60,7 @@ Then, follow the detailed instructions on our [Neurobagel data annotation page](
 
 ![Neurobagel-Annotation](../../assets/images/Neurobagel_annotation_screenshot.png)
 
-
+<br>
 
 ### Option 2: Manual entry via Castor (prospective sites or small N)
 
@@ -69,7 +71,7 @@ If your site is just getting started or has a relatively small number of partici
 !!! warning "What to upload?"
     The clinical data sharing will go through Castor, you do not need to upload any clinical data to the SURFdrive folder for your site.
 
-    
+<br>
 
 ### Option 3: EU-NN data sharing
 
