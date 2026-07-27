@@ -1,9 +1,7 @@
 # NICHY Data Annotation with Neurobagel
 
 ## Why this matters
-The NICHY consortium aims to collect diverse clinical data across sites to maximize the depth and breadth of our analyses. To combine data across multiple sites effectively, we need a consistent and reliable way to interpret variables and ensure that we're all speaking the same language.
-
-The Neurobagel annotation tool provides a structured, user-friendly way to standardize how we describe clinical data. This makes it easier for us to understand what each variable means.
+The NICHY consortium aims to collect diverse clinical data across sites to maximize the depth and breadth of our analyses. To combine data effectively, we need a consistent way to interpret variables and ensure all sites are "using the same language". The Neurobagel annotation tool provides a structured, user-friendly way to standardize how we describe clinical data, making it easier to understand what each variable means across the consortium.
 
 As we grow and collect more standardized annotations, we hope to eventually make it easier for NICHY to discover data availability across sites for ongoing and future projects.
 
@@ -11,7 +9,7 @@ As we grow and collect more standardized annotations, we hope to eventually make
 
 ## 1. NICHY Custom Variable List  
 
-To support harmonized annotation across sites, NICHY has compiled a curated list of variables relevant to central disorders of hypersomnolence. The list covers key domains including demographics, clinical profiling, medication use, diagnoses, validated questionnaires, specialized sleep assessments (PSG, MSLT, actigraphy), and fluid biomarkers. 
+NICHY has compiled a curated list of variables relevant to central disorders of hypersomnolence. The list covers key domains including demographics, clinical profiling, medication use, (comorbid) diagnoses, validated questionnaires, specialized sleep assessments (PSG, MSLT, actigraphy), and fluid biomarkers. 
 
 !!! info "Expanding our NICHY variable list"
     We are still developing our NICHY variable list. If your site collects variables that other NICHY sites may also have, and that could be valuable for current or future NICHY projects, please reach out to us. 
@@ -22,19 +20,20 @@ To support harmonized annotation across sites, NICHY has compiled a curated list
 - A mechanism for sites to suggest additional variables.
 
 **Check out the NICHY variable list [here!](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0)**
+
 ---
 
 ## 2. Annotation using Neurobagel
-With the NICHY vocabulary integrated into the tool, sites can annotate their datasets in a structured and intuitive way.
+With the NICHY vocabulary integrated into the tool, sites can annotate their spreadsheets in a structured and intuitive way.
 
 !!! info "Privacy note"
       Although the annotation interface is a web app, it runs entirely on your computer and Neurobagel **does not upload any data or retain data**. Your data are used only to populate the annotation interface (read columns and possible values).
 
 ### What sites do in this step
-- Go to [https://beta-annotate.neurobagel.org/](https://beta-annotate.neurobagel.org/)
+- Go to [https://beta-annotate.neurobagel.org/](https://beta-annotate.neurobagel.org/).
 - Select **NICHY** as configuration.
 
-![Neurobagel NICHY Configuration](../../assets/figures/Neurobagel_NICHY_screenshot.png)
+![Neurobagel NICHY Configuration](../../assets/images/Neurobagel_NICHY_screenshot.png)
 
 - Upload a TSV file containing demographic and clinical variables (if you still need to convert your data from CSV or Excel, see the [Neurobagel documentation on TSVs](https://neurobagel.org/glossary/#tsv)). Please annotate **all clinical and demographic** variables available in your dataset.
 
