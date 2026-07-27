@@ -6,6 +6,8 @@ Once you have completed all the steps, your derived data is ready to be shared w
 - **Review the .tsv and Excel files to confirm completeness**. Verify that all participants are included, there are no missing or unexpected values, and that quality assessment scores have been assigned to each ROI and participant.
 - If your site has a preferred data transfer method (different from the one described below), please let us know and we will do our best to accommodate it. Be sure to confirm this with your PI and consult your data transfer agreement beforehand.
 
+---
+
 ## Data to be shared
 
 The following data will be shared with the Amsterdam server as part of this project:
@@ -37,7 +39,7 @@ Quality control output (2 spreadsheet, optionally .png files)
 
 - Quality control .png files (if authorized)
 
-## Clinical and Demographic Data
+### Clinical and Demographic Data
 
 Please share all available clinical and demographic data using one of the following three options. It is important for us to receive as comprehensive a dataset as possible so we can identify which variables are available across NICHY sites and conduct analyses with maximum clinical detail.
 
@@ -69,6 +71,8 @@ If your participants are also included in the EU-NN database, you can request an
 
 !!! warning "What to upload?"
     Upload the EU-NN export and the reference file to the SURFdrive folder for your site. For the additional requested clinical data that is not included in the EU-NN, share these using either Option 1 (spreadsheet format) or Option 2 (Castor entry). Include the corresponding data dictionary if you choose the spreadsheet route.
+
+---
 
 ## Data upload via SURFdrive
 
