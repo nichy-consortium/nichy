@@ -39,7 +39,7 @@ Quality control output (2 spreadsheet, optionally .png files)
 
 ## Clinical and Demographic Data
 
-Depending on your site's situation, we ask you to share clinical and demographic data using one of the following three options:
+Please share all available clinical and demographic data using one of the following three options. It is important for us to receive as comprehensive a dataset as possible so we can identify which variables are available across NICHY sites and conduct analyses with maximum clinical detail.
 
 ### Option 1: Sharing an existing spreadsheet
 
@@ -53,19 +53,8 @@ If your site is just getting started or has a relatively small number of partici
 
 If your participants are also included in the EU-NN database, you can request an export of the relevant data directly from the EU-NN. This requires an export of your EU-NN data accompanied by a reference file with matching MRI IDs, as well as some more data that is not included in the EU-NN. Please reach out to the NICHY core team to arrange this. 
 
+## Data upload via SURFdrive
 
+We provide a secure and encrypted method to send your data using [SURFdrive, SURF's community cloud storage service for Dutch education and research](https://www.surf.nl/en/services/storage-data-management/surfdrive).
 
-## Data sharing protocol
-
-### Sending data using SURFfilesender
-We provide the possibility to send the data securely and encrypted using [SURFfilesender](https://www.surf.nl/en/services/storage-data-management/surffilesender). 
-
-#### Option 1: Upload files via browser
-For this, you can use the personal invitation link that you will receive by email. This email has been sent from **SURFfilesender <noreply@surf.nl\>** on behalf of our team, so please check your spam or junk folder if you do not see it in your inbox. The email will contain a voucher link and will look something like this:
->*"Please find below a voucher which grants access to SURFfilesender. You can use this voucher to upload one set of files and make it available for download."*
-
-The voucher link will be valid for 60 days, so please use it in time. If you did not receive the email, cannot find it, or need a new link, please reach out to the NICHY core team.
-
-#### Option 2: Upload files via the command line
-
-This option is available if you have a SURF account (available to all Dutch educational institutions) or an eduID (a guest account for SURF services). If you do not have either, you can request an eduID at [eduid.nl](eduid.nl). Full instructions for setting up and using the SURF CLI client can be found [here](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/198967770/SURFfilesender+CLI+client). In short, the process involves downloading the Python CLI client from your SURFfilesender profile page, installing a few standard Python dependencies (which are present on most systems), configuring the client with your username and API key from the same profile page, and then running the client with the recipient address and file path to upload your data.
+Using the personalized link you received via email, please upload your derived MRI data and (depending on the clinical data option you selected above) the corresponding clinical data. Once uploaded, we will securely transfer the data to our servers for statistical analysis within the NICHY study.
