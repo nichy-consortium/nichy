@@ -47,7 +47,7 @@ Our general recommendation is to share all available data. If you want some guid
 
 If your site already has a spreadsheet containing the clinical and demographic variables for all participants, you can share this directly as a single TSV (tab-separated values) file, with all variables as columns and all participants as rows. **Avoid Excel files with multiple tabs, merged cells, or comments, as these are difficult to parse and combine across sites.**
 
-For this option, we ask you to create a data dictionary using Neurobagel. Convert your spreadsheet to a TSV format and follow the detailed instructions on our [Neurobagel data annotation page](./Neurobagel_data_annotation.md). Please name your file as follows: NICHY_[YourSiteName]_clinicaldata.tsv (for example: NICHY_Amsterdam_clinicaldata.tsv). 
+For this option, we ask you to create a **data dictionary** using Neurobagel. A data dictionary is a structured file that documents what each variable in your spreadsheet means and how the values are coded. Convert your spreadsheet to a TSV format and follow the detailed instructions on our [Neurobagel data annotation page](./Neurobagel_data_annotation.md). Please name your spreadsheet as follows: NICHY_[YourSiteName]_clinicaldata.tsv (for example: NICHY_Amsterdam_clinicaldata.tsv). 
 
 !!! warning "What to upload?"
     Upload both the clinical data spreadsheet and the data dictionary (NICHY_[YourSiteName]_clinicaldata_annotated.json) to the SURFdrive folder for your site.
