@@ -73,7 +73,7 @@ If your site is just getting started or has a relatively small number of partici
 
 ### Option 3: EU-NN data sharing
 
-If your participants are also included in the EU-NN database, you can request an export of the relevant data directly from the EU-NN. This requires an export of your EU-NN data accompanied by a reference file with matching MRI IDs, as well as some more data that is not included in the EU-NN. Please reach out to the NICHY core team to arrange this. 
+If your participants are also included in the EU-NN database, you can request an export of the relevant data directly from the EU-NN. We also require a reference file with matching MRI IDs, as well as some more data that is not included in the EU-NN. Please reach out to the NICHY core team to arrange this. 
 
 !!! warning "What to upload?"
     Upload the EU-NN export and the reference file to the SURFdrive folder for your site. For the additional requested clinical data that is not included in the EU-NN, share these using either Option 1 (spreadsheet format) or Option 2 (Castor entry). Include the corresponding data dictionary if you choose the spreadsheet route.
