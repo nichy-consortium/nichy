@@ -56,7 +56,7 @@ For this option, we ask you to create a **data dictionary** using Neurobagel. A 
 Then, follow the detailed instructions on our [Neurobagel data annotation page](./Neurobagel_data_annotation.md). 
 
 !!! warning "What to upload?"
-    Upload both the clinical data spreadsheet and the data dictionary (NICHY_[YourSiteName]_clinicaldata_annotated.json) to the SURFdrive folder for your site.
+    Upload the clinical data spreadsheet, the data dictionary (..._annotated.json), and dataset description (..._dataset_description.json) to the SURFdrive folder for your site.
 
 ![Neurobagel-Annotation](../../assets/images/Neurobagel_annotation_screenshot.png)
 
@@ -78,7 +78,7 @@ If your site is just getting started or has a relatively small number of partici
 If your participants are also included in the EU-NN database, you can request an export of the relevant data directly from the EU-NN. We also require a reference file with matching MRI IDs, as well as some more data that is not included in the EU-NN. Please reach out to the NICHY core team to arrange this. 
 
 !!! warning "What to upload?"
-    Upload the EU-NN export and the reference file to the SURFdrive folder for your site. For the additional requested clinical data that is not included in the EU-NN, share these using either Option 1 (spreadsheet format) or Option 2 (Castor entry). Include the corresponding data dictionary if you choose the spreadsheet route.
+    Upload the EU-NN export and the reference file to the SURFdrive folder for your site. For the additional requested clinical data that is not included in the EU-NN, share these using either Option 1 (spreadsheet format) or Option 2 (Castor entry). Include the corresponding data dictionary and dataset description if you choose the spreadsheet route.
 
 ---
 
