@@ -24,7 +24,7 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 !!! warning "Privacy note"
       Although the annotation interface is a web app, it runs entirely on your computer and Neurobagel **does not upload any data or retain data**. Your data are used only to populate the annotation interface (read columns and possible values).
 
-### What sites do in this step
+### Step-by-step
 - Go to [https://beta-annotate.neurobagel.org/](https://beta-annotate.neurobagel.org/).
 - Select **NICHY** as configuration.
 
@@ -39,6 +39,8 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 
 - New to Neurobagel? Click through the introduction windows to get started.
 
+<br>
+
 #### Column annotation
 **Goal:** Assign each column or group of columns to a standardized variable by clicking on them.
 
@@ -49,18 +51,26 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
   If a search does not return results, try alternative terms or synonyms. You can also browse the [full NICHY variable list](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0) to get an overview of all available terms before annotating.
 - If no variable fits your column, please use the *description* field to provide us with more context to understand this column
 
+<br>
+
 #### Value annotation
 **Goal:** Review all columns annotated in the previous step and describe their values.
 
 - **Mark missing values.** Neurobagel allows you to define missing values (such as -999, NA, empty strings, etc.) all at once for your entire spreadsheet. The tool will even suggest common missing value patterns it detects in your data. Once you define these, Neurobagel will apply them across all relevant columns, so you don't need to mark missing values individually for each variable.
-- Optionally add short human‑readable descriptions for uncommon variables.  
+- Optionally add short human‑readable descriptions for uncommon variables.
+
+<br>
 
 #### Sharing the data dictionary
 
-- Done? Download the data dictionary and share it together with the clinical data as explained on the [data sharing page](./data_sharing.md). 
+- Done? Download the data dictionary and share it together with the clinical data as explained on the [data sharing page](./data_sharing.md).
+
+<br>
 
 ### Questions and support
 For questions, please reach out to the NICHY team and join [the Neurobagel discord server](https://discord.gg/sxnCT4QJ7a) for support.
+
+<br>
 
 ### Why this helps
 - Produces a consistent, machine‑readable data dictionary for each cohort.  
@@ -73,7 +83,7 @@ For questions, please reach out to the NICHY team and join [the Neurobagel disco
 
 ## Feedback from early adopters  
 - Annotation is straightforward and user‑friendly. It typically takes under an hour for a dataset of around 100 variables. And if you cannot finish in one go, you can always save your progress and continue later.   
-- The main time investment is **the column annotation step**, selecting the correct variable from the ENIGMA‑PD vocabulary.  
+- The main time investment is **the column annotation step**, selecting the correct variable from the NICHY vocabulary.  
 - Overall experience: not difficult, but requires some attention to detail.
 
 ??? info "Add your feedback to improve the tool"
@@ -81,7 +91,7 @@ For questions, please reach out to the NICHY team and join [the Neurobagel disco
 
 ---
 
-## Summary: next steps for sites  
+## Summary  
 - Annotate your clinical spreadsheet using the NICHY variable list and Neurobagel tool.  
 - Reach out to the NICHY team and join [the Neurobagel discord server](https://discord.gg/sxnCT4QJ7a) for support.
 - Share feedback on missing variables with the NICHY team or usability improvements with the Neurobagel team, directly through the tool.
