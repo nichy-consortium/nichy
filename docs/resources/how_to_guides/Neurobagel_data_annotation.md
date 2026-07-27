@@ -11,7 +11,7 @@ As we grow and collect more standardized annotations, we hope to eventually make
 
 NICHY has compiled a curated list of variables relevant to central disorders of hypersomnolence. The list covers key domains including demographics, clinical profiling, medication use, (comorbid) diagnoses, validated questionnaires, specialized sleep assessments (PSG, MSLT, actigraphy), and fluid biomarkers. 
 
-!!! warning "Expanding our NICHY variable list"
+!!! info "Expanding our NICHY variable list"
     We are still developing our NICHY variable list. If your site collects variables that other NICHY sites may also have, and that could be valuable for current or future NICHY projects, please reach out to us. 
 
 **Check out the NICHY variable list [here!](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0)**
@@ -21,7 +21,7 @@ NICHY has compiled a curated list of variables relevant to central disorders of 
 ## 2. Annotation using Neurobagel
 With the NICHY vocabulary integrated into the tool, sites can annotate their spreadsheets in a structured and intuitive way.
 
-!!! info "Privacy note"
+!!! warning "Privacy note"
       Although the annotation interface is a web app, it runs entirely on your computer and Neurobagel **does not upload any data or retain data**. Your data are used only to populate the annotation interface (read columns and possible values).
 
 ### What sites do in this step
