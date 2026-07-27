@@ -11,7 +11,7 @@ As we grow and collect more standardized annotations, we hope to eventually make
 
 NICHY has compiled a curated list of variables relevant to central disorders of hypersomnolence. The list covers key domains including demographics, clinical profiling, medication use, (comorbid) diagnoses, validated questionnaires, specialized sleep assessments (PSG, MSLT, actigraphy), and fluid biomarkers. 
 
-!!! info "Expanding our NICHY variable list"
+!!! warning "Expanding our NICHY variable list"
     We are still developing our NICHY variable list. If your site collects variables that other NICHY sites may also have, and that could be valuable for current or future NICHY projects, please reach out to us. 
 
 **Check out the NICHY variable list [here!](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0)**
@@ -28,9 +28,9 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 - Go to [https://beta-annotate.neurobagel.org/](https://beta-annotate.neurobagel.org/).
 - Select **NICHY** as configuration.
 
-![Neurobagel NICHY Configuration](../../assets/images/Neurobagel_NICHY_screenshot.png)
+![Neurobagel NICHY Configuration](../assets/images/Neurobagel_NICHY_screenshot.png)
 
-- Upload a TSV file containing demographic and clinical variables (if you still need to convert your data from CSV or Excel, see the [Neurobagel documentation on TSVs](https://neurobagel.org/glossary/#tsv)). Please annotate **all clinical and demographic** variables available in your dataset.
+- Upload a TSV file containing demographic and clinical variables (if you still need to convert your data from CSV or Excel, see the [Neurobagel documentation on TSVs](https://neurobagel.org/glossary/#tsv). Note: Excel does not have a native TSV export option, but you can export as "Text (Tab delimited) .txt" and then rename the file extension to .tsv). Please annotate **all clinical and demographic** variables available in your dataset.
 
 !!! info "Item-level data is valuable"
     If your site has individual item scores available, we encourage you to share and annotate these alongside the total scores. For example, if you have the Epworth Sleepiness Scale (ESS), sharing the responses to each of the eight items provides more flexibility for future analyses. Item-level data allows for more detailed analyses across NICHY projects and may reveal patterns that total scores alone cannot capture.
@@ -50,7 +50,7 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 #### Value annotation
 **Goal:** Review all columns annotated in the previous step and describe their values.
 
-- Mark missing values.  
+- **Mark missing values.** Neurobagel allows you to define missing values (such as -999, NA, empty strings, etc.) all at once for your entire spreadsheet. The tool will even suggest common missing value patterns it detects in your data. Once you define these, Neurobagel will apply them across all relevant columns, so you don't need to mark missing values individually for each variable.
 - Optionally add short human‑readable descriptions for uncommon variables.  
 
 #### Sharing the data dictionary
