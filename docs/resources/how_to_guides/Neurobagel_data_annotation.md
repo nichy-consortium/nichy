@@ -61,9 +61,14 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 
 <br>
 
-#### Sharing the data dictionary
+#### Dataset description
 
-- Done? Download the data dictionary and share it together with the clinical data as explained on the [data sharing page](./data_sharing.md).
+Provide some information about the dataset name, authors, and access. 
+
+
+### Sharing the data dictionary
+
+- Done? Download the data dictionary and dataset description and share them together with the clinical data as explained on the [data sharing page](./data_sharing.md).
 
 <br>
 
