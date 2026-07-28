@@ -91,7 +91,7 @@ For questions, please reach out to the NICHY team and join [the Neurobagel disco
 ---
 
 ## Feedback from early adopters  
-- Annotation is straightforward and user‑friendly. It typically takes under an hour for a dataset of around 100 variables. And if you cannot finish in one go, you can always save your progress and continue later.   
+- Annotation is straightforward and user‑friendly. It typically takes under an hour for a dataset of around 100 variables. And if you cannot finish in one go, you can always save your progress and continue later (to do this, skip to the end of the process and download the data dictionary, you can upload this file again next time when you want to resume). Don't close or refresh the page while annotating!   
 - The main time investment is **the column annotation step**, selecting the correct variable from the NICHY vocabulary.  
 - Overall experience: not difficult, but requires some attention to detail.
 
