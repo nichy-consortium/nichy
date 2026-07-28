@@ -8,6 +8,16 @@ Once you have completed all the steps, your derived data is ready to be shared w
 
 ---
 
+## Data upload via SURFdrive
+
+We provide a secure and encrypted method to send your data using [SURFdrive, SURF's community cloud storage service for Dutch education and research](https://www.surf.nl/en/services/storage-data-management/surfdrive).
+
+Using the personalized link you received via email, please upload your derived MRI data and (depending on the clinical data option you selected above) the corresponding clinical data. Once uploaded, we will securely transfer the data to our servers for statistical analysis.
+
+![SURFdrive upload interface](../../assets/images/SURF_Drive_Screenshot.png)
+
+---
+
 ## Data to be shared
 
 The following data will be shared with the Amsterdam server as part of this project:
@@ -55,10 +65,10 @@ For this option, we ask you to create a **data dictionary** using Neurobagel. A 
 
 Then, follow the detailed instructions on our [Neurobagel data annotation page](./Neurobagel_data_annotation.md). 
 
+![Neurobagel-Annotation](../../assets/images/Neurobagel_annotation_screenshot.png)
+
 !!! warning "What to upload?"
     Upload the clinical data spreadsheet, the data dictionary (..._annotated.json), and dataset description (..._dataset_description.json) to the SURFdrive folder for your site.
-
-![Neurobagel-Annotation](../../assets/images/Neurobagel_annotation_screenshot.png)
 
 <br>
 
@@ -79,13 +89,3 @@ If your participants are also included in the EU-NN database, you can request an
 
 !!! warning "What to upload?"
     Upload the EU-NN export and the reference file to the SURFdrive folder for your site. For the additional requested clinical data that is not included in the EU-NN, share these using either Option 1 (spreadsheet format) or Option 2 (Castor entry). Include the corresponding data dictionary and dataset description if you choose the spreadsheet route.
-
----
-
-## Data upload via SURFdrive
-
-We provide a secure and encrypted method to send your data using [SURFdrive, SURF's community cloud storage service for Dutch education and research](https://www.surf.nl/en/services/storage-data-management/surfdrive).
-
-Using the personalized link you received via email, please upload your derived MRI data and (depending on the clinical data option you selected above) the corresponding clinical data. Once uploaded, we will securely transfer the data to our servers for statistical analysis.
-
-![SURFdrive upload interface](../../assets/images/SURF_Drive_Screenshot.png)
