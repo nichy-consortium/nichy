@@ -52,7 +52,7 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 - If no variable fits your column, please use the *description* field to provide us with more context to understand this column
 
 !!! warning "Note: value annotation for diagnosis"
-    In the column annotation stage, please select **the standard Neurobagel diagnosis column**. When you move on to the value annotation stage, however, you may notice that narcolepsy and other disorders of hypersomnolence are not yet available in the list of disorders. We are working with the Neurobagel team to have these added. For now, please annotate the column as diagnosis but leave the individual levels empty (you may select "healthy control" for controls if those are present). At the end of the process the tool will warn you that some columns have incomplete value annotations. You can safely ignore this message and select "Let me download, I know what I'm doing!".
+    In the column annotation stage, please select **the standard Neurobagel diagnosis column**. When you move on to the value annotation stage, however, you may notice that **narcolepsy and other disorders of hypersomnolence are not yet available in the list of disorders**. We are working with the Neurobagel team to have these added. For now, please annotate the column as diagnosis but **leave the individual levels empty** (you may select "healthy control" for controls if those are present). At the end of the process the tool will warn you that some columns have incomplete value annotations. You can safely ignore this message and select "**Let me download, I know what I'm doing!**".
 
 <br>
 
