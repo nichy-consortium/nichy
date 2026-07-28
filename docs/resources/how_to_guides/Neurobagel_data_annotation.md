@@ -12,7 +12,7 @@ As we grow and collect more standardized annotations, we hope to eventually make
 NICHY has compiled a curated list of variables relevant to central disorders of hypersomnolence. The list covers key domains including demographics, clinical profiling, medication use, (comorbid) diagnoses, validated questionnaires, specialized sleep assessments (PSG, MSLT, actigraphy), and fluid biomarkers. 
 
 !!! info "Expanding our NICHY variable list"
-    We are still developing our NICHY variable list. If your site collects variables that other NICHY sites may also have, and that could be valuable for current or future NICHY projects, please provide suggestions to add them in the second tab of the spreadsheet.  
+    We are still developing our NICHY variable list. If your site collects variables that other NICHY sites may also have, and that could be valuable for current or future NICHY projects, **please provide suggestions to add them in the second tab of the spreadsheet**.  
 
 **Check out the NICHY variable list [here!](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0)**
 
@@ -35,7 +35,7 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 - Please annotate **all clinical and demographic** variables available in your dataset.
 
 !!! info "Item-level data is valuable"
-    If your site has individual item scores available, we encourage you to share and annotate these alongside the total scores. For example, if you have the Epworth Sleepiness Scale (ESS), sharing the responses to each of the eight items provides more flexibility for future analyses. Item-level data allows for more detailed analyses across NICHY projects and may reveal patterns that total scores alone cannot capture.
+    If your site has **individual item scores available**, we encourage you to share and annotate these alongside the total scores. For example, if you have the Epworth Sleepiness Scale (ESS), sharing the responses to each of the eight items provides more flexibility for future analyses. Item-level data allows for **more detailed analyses** across NICHY projects and may reveal patterns that total scores alone cannot capture.
 
 - New to Neurobagel? Click through the introduction pop-ups when opening the tool.
 
