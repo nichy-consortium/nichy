@@ -12,7 +12,7 @@ As we grow and collect more standardized annotations, we hope to eventually make
 NICHY has compiled a curated list of variables relevant to central disorders of hypersomnolence. The list covers key domains including demographics, clinical profiling, medication use, (comorbid) diagnoses, validated questionnaires, specialized sleep assessments (PSG, MSLT, actigraphy), and fluid biomarkers. 
 
 !!! info "Expanding our NICHY variable list"
-    We are still developing our NICHY variable list. If your site collects variables that other NICHY sites may also have, and that could be valuable for current or future NICHY projects, please reach out to us. 
+    We are still developing our NICHY variable list. If your site collects variables that other NICHY sites may also have, and that could be valuable for current or future NICHY projects, please provide suggestions to add them in the second tab of the spreadsheet.  
 
 **Check out the NICHY variable list [here!](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0)**
 
@@ -51,6 +51,9 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
   If a search does not return results, try alternative terms or synonyms. You can also browse the [full NICHY variable list](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0) to get an overview of all available terms before annotating.
 - If no variable fits your column, please use the *description* field to provide us with more context to understand this column
 
+!!! warning "Note: value annotation for diagnosis"
+    In the column annotation stage, please select **the standard Neurobagel diagnosis column**. When you move on to the value annotation stage, however, you may notice that narcolepsy and other disorders of hypersomnolence are not yet available in the list of disorders. We are working with the Neurobagel team to have these added. For now, please annotate the column as diagnosis but leave the individual levels empty (you may select "healthy control" for controls if those are present). At the end of the process the tool will warn you that some columns have incomplete value annotations. You can safely ignore this message and select "Let me download, I know what I'm doing!".
+
 <br>
 
 #### Value annotation
@@ -63,12 +66,13 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 
 #### Dataset description
 
-Provide some information about the dataset name, authors, and access. 
+You can skip this step entirely (except for dataset name, since it is required). We will ask about some of these details (such as involved co-authors and a citation for the original study) later on, along with a few additional questions that are not covered here.
 
+<br>
 
 ### Sharing the data dictionary
 
-- Done? Download the data dictionary and dataset description and share them together with the clinical data as explained on the [data sharing page](./data_sharing.md).
+- Done? Download the data dictionary and share them the file with the clinical data as explained on the [data sharing page](./data_sharing.md).
 
 <br>
 
@@ -99,4 +103,4 @@ For questions, please reach out to the NICHY team and join [the Neurobagel disco
 ## Summary  
 - Annotate your clinical spreadsheet using the NICHY variable list and Neurobagel tool.  
 - Reach out to the NICHY team and join [the Neurobagel discord server](https://discord.gg/sxnCT4QJ7a) for support.
-- Share feedback on missing variables with the NICHY team or usability improvements with the Neurobagel team, directly through the tool.
+- Share feedback on missing variables in the second tab of [the NICHY variable list](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0) or usability improvements with the Neurobagel team, directly through the tool.
