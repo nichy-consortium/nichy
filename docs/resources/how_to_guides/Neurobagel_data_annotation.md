@@ -30,14 +30,14 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 
 ![Neurobagel-NICHY-Configuration](../../assets/images/Neurobagel_NICHY_screenshot.png)
 
-- Upload a TSV file containing demographic and clinical variables
+- Upload a TSV file containing demographic and clinical variables.
     If you still need to convert your data from CSV or Excel, see the [Neurobagel documentation on TSVs](https://neurobagel.org/glossary/#tsv). Note: Excel does not have a native TSV export option, but you can export as "Text (Tab delimited) .txt" and then rename the file extension to .tsv).
 - Please annotate **all clinical and demographic** variables available in your dataset.
 
 !!! info "Item-level data is valuable"
     If your site has individual item scores available, we encourage you to share and annotate these alongside the total scores. For example, if you have the Epworth Sleepiness Scale (ESS), sharing the responses to each of the eight items provides more flexibility for future analyses. Item-level data allows for more detailed analyses across NICHY projects and may reveal patterns that total scores alone cannot capture.
 
-- New to Neurobagel? Click through the introduction windows to get started.
+- New to Neurobagel? Click through the introduction pop-ups when opening the tool.
 
 <br>
 
@@ -45,7 +45,7 @@ With the NICHY vocabulary integrated into the tool, sites can annotate their spr
 **Goal:** Assign each column or group of columns to a standardized variable by clicking on them.
 
 - Select multiple related columns at once using CTRL+click or SHIFT+click
-- Can't find a column? Filter your column list by name using the search bar at the top left
+- Can't find a column? Filter your column list using the search bar at the top left
 - Can't find a variable? Use the search bar in the assessment tool list to narrow down options
 - Note that variable names in the tool may not always match your local naming conventions, for example, what your site calls "disease duration" may be listed as "time since diagnosis". 
   If a search does not return results, try alternative terms or synonyms. You can also browse the [full NICHY variable list](https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0) to get an overview of all available terms before annotating.
