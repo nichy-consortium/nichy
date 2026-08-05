@@ -24,6 +24,9 @@ nav:
     
   - Projects:    
     - FreeSurfer project: projects/ongoing/freesurfer.md
+    - Hallucinations project: projects/upcoming/hallucinations.md
+    - Brainage project: projects/upcoming/brainage.md
+    - Diffusion project: projects/upcoming/diffusion.md
     - Propose a project: projects/propose_a_project.md
 
   - Resources:
