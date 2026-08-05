@@ -4,7 +4,7 @@
 
 **Full title:** Brain morphology in central disorders of hypersomnolence: First analysis from the global multi-site neuroimaging consortium NICHY
 
-**Analysis leads:** Eva van Heese, Niels de Joode, and Keetje Voogd
+**Analysis leads:** Eva van Heese and Keetje Voogd
 
 **Contact details:** nichy@amsterdamumc.nl
 
