@@ -9,6 +9,6 @@ Participating sites retain **full ownership** of their data. Responsibility for 
 
 NICHY provides an open framework for collaboration, allowing sites to propose new studies while ensuring data privacy and adherence to local regulations.
 
-Interested in joining NICHY? Please reach out to the working group chairs at yd.vanderwerf@amsterdamumc.nl and tt.dangvu@concordia.ca!
+Interested in joining NICHY? Please reach out to us at nichy@amsterdamumc.nl !
 
 ![Team Picture](../assets/NICHY_team_picture.jpg)
