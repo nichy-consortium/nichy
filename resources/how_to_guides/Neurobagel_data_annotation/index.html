@@ -1,0 +1,1337 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../data_sharing/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/logos/nichy_logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Neurobagel annotation - NICHY consortium</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#nichy-data-annotation-with-neurobagel" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="NICHY consortium" class="md-header__button md-logo" aria-label="NICHY consortium" data-md-component="logo">
+      
+  <img src="../../../assets/logos/nichy_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NICHY consortium
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Neurobagel annotation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="NICHY consortium" class="md-nav__button md-logo" aria-label="NICHY consortium" data-md-component="logo">
+      
+  <img src="../../../assets/logos/nichy_logo.png" alt="logo">
+
+    </a>
+    NICHY consortium
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About NICHY
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About NICHY
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../working_group/about_the_consortium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Consortium
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../working_group/team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Steering Committee
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../working_group/analysis_team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analysis Team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../working_group/legal_team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Legal Team
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../working_group/existing_sites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../working_group/join_us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Join us
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../working_group/acknowledgements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acknowledgements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Projects
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/ongoing/freesurfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FreeSurfer project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/upcoming/hallucinations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hallucinations project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/upcoming/brainage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainage project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/upcoming/diffusion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diffusion project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/propose_a_project/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Propose a project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legal/legal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Legal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data_sharing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data sharing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Neurobagel annotation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Neurobagel annotation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-nichy-custom-variable-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. NICHY Custom Variable List
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-annotation-using-neurobagel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Annotation using Neurobagel
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Annotation using Neurobagel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-step
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-step">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#column-annotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Column annotation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#value-annotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Value annotation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dataset-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dataset description
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sharing-the-data-dictionary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sharing the data dictionary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#questions-and-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Questions and support
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-helps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this helps
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#feedback-from-early-adopters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feedback from early adopters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-nichy-custom-variable-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. NICHY Custom Variable List
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-annotation-using-neurobagel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Annotation using Neurobagel
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Annotation using Neurobagel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-step
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-step">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#column-annotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Column annotation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#value-annotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Value annotation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dataset-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dataset description
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sharing-the-data-dictionary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sharing the data dictionary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#questions-and-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Questions and support
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-helps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this helps
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#feedback-from-early-adopters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feedback from early adopters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="nichy-data-annotation-with-neurobagel">NICHY Data Annotation with Neurobagel</h1>
+<h2 id="why-this-matters">Why this matters</h2>
+<p>The NICHY consortium aims to collect diverse clinical data across sites to maximize the depth and breadth of our analyses. To combine data effectively, we need a consistent way to interpret variables and ensure all sites are "using the same language". The Neurobagel annotation tool provides a structured, user-friendly way to standardize how we describe clinical data, making it easier to understand what each variable means across the consortium.</p>
+<p>As we grow and collect more standardized annotations, we hope to eventually make it easier for NICHY to discover data availability across sites for ongoing and future projects.</p>
+<hr />
+<h2 id="1-nichy-custom-variable-list">1. NICHY Custom Variable List</h2>
+<p>NICHY has compiled a curated list of variables relevant to central disorders of hypersomnolence. The list covers key domains including demographics, clinical profiling, medication use, (comorbid) diagnoses, validated questionnaires, specialized sleep assessments (PSG, MSLT, actigraphy), and fluid biomarkers. </p>
+<div class="admonition info">
+<p class="admonition-title">Expanding our NICHY variable list</p>
+<p>We are still developing our NICHY variable list. If your site collects variables that other NICHY sites may also have, and that could be valuable for current or future NICHY projects, <strong>please provide suggestions to add them in the second tab of the spreadsheet</strong>.  </p>
+</div>
+<p><strong>Check out the NICHY variable list <a href="https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0">here!</a></strong></p>
+<hr />
+<h2 id="2-annotation-using-neurobagel">2. Annotation using Neurobagel</h2>
+<p>With the NICHY vocabulary integrated into the tool, sites can annotate their spreadsheets in a structured and intuitive way.</p>
+<div class="admonition warning">
+<p class="admonition-title">Privacy note</p>
+<p>Although the annotation interface is a web app, it runs entirely on your computer and Neurobagel <strong>does not upload any data or retain data</strong>. Your data are used only to populate the annotation interface (read columns and possible values).</p>
+</div>
+<h3 id="step-by-step">Step-by-step</h3>
+<ul>
+<li>Go to <a href="https://beta-annotate.neurobagel.org/">https://beta-annotate.neurobagel.org/</a>.</li>
+<li>Select <strong>NICHY</strong> as configuration.</li>
+</ul>
+<p><img alt="Neurobagel-NICHY-Configuration" src="../../../assets/images/Neurobagel_NICHY_screenshot.png" /></p>
+<ul>
+<li>Upload a TSV file containing demographic and clinical variables.
+    If you still need to convert your data from CSV or Excel, see the <a href="https://neurobagel.org/glossary/#tsv">Neurobagel documentation on TSVs</a>. Note: Excel does not have a native TSV export option, but you can export as "Text (Tab delimited) .txt" and then rename the file extension to .tsv).</li>
+<li>Please annotate <strong>all clinical and demographic</strong> variables available in your dataset.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Item-level data is valuable</p>
+<p>If your site has <strong>individual item scores available</strong>, we encourage you to share and annotate these alongside the total scores. For example, if you have the Epworth Sleepiness Scale (ESS), sharing the responses to each of the eight items provides more flexibility for future analyses. Item-level data allows for <strong>more detailed analyses</strong> across NICHY projects and may reveal patterns that total scores alone cannot capture.</p>
+</div>
+<ul>
+<li>New to Neurobagel? Click through the introduction pop-ups when opening the tool.</li>
+</ul>
+<p><br></p>
+<h4 id="column-annotation">Column annotation</h4>
+<p><strong>Goal:</strong> Assign each column or group of columns to a standardized variable by clicking on them.</p>
+<ul>
+<li>Select multiple related columns at once using CTRL+click or SHIFT+click</li>
+<li>Can't find a column? Filter your column list using the search bar at the top left</li>
+<li>Can't find a variable? Use the search bar in the assessment tool list to narrow down options</li>
+<li>Note that variable names in the tool may not always match your local naming conventions, for example, what your site calls "disease duration" may be listed as "time since diagnosis". 
+  If a search does not return results, try alternative terms or synonyms. You can also browse the <a href="https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0">full NICHY variable list</a> to get an overview of all available terms before annotating.</li>
+<li>If no variable fits your column, please use the <em>description</em> field to provide us with more context to understand this column</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Note: value annotation for diagnosis</p>
+<p>In the column annotation stage, please select <strong>the standard Neurobagel diagnosis column</strong>. When you move on to the value annotation stage, however, you may notice that <strong>narcolepsy and other disorders of hypersomnolence are not yet available in the list of disorders</strong>. We are working with the Neurobagel team to have these added. For now, please annotate the column as diagnosis but <strong>leave the individual levels empty</strong> (you may select "healthy control" for controls if those are present). At the end of the process the tool will warn you that some columns have incomplete value annotations. You can safely ignore this message and select "<strong>Let me download, I know what I'm doing!</strong>".</p>
+</div>
+<p><br></p>
+<h4 id="value-annotation">Value annotation</h4>
+<p><strong>Goal:</strong> Review all columns annotated in the previous step and describe their values.</p>
+<ul>
+<li><strong>Mark missing values.</strong> Neurobagel allows you to define missing values (such as -999, NA, empty strings, etc.) all at once for your entire spreadsheet. The tool will even suggest common missing value patterns it detects in your data. Once you define these, Neurobagel will apply them across all relevant columns, so you don't need to mark missing values individually for each variable.</li>
+<li>Optionally add short human‑readable descriptions for uncommon variables.</li>
+</ul>
+<p><br></p>
+<h4 id="dataset-description">Dataset description</h4>
+<p>You can skip this step entirely (except for dataset name, since it is required). We will ask about some of these details (such as involved co-authors and a citation for the original study) later on, along with a few additional questions that are not covered here.</p>
+<p><br></p>
+<h3 id="sharing-the-data-dictionary">Sharing the data dictionary</h3>
+<ul>
+<li>Done? Download the data dictionary and share them the file with the clinical data as explained on the <a href="../data_sharing/">data sharing page</a>.</li>
+</ul>
+<p><br></p>
+<h3 id="questions-and-support">Questions and support</h3>
+<p>For questions, please reach out to the NICHY team and join <a href="https://discord.gg/sxnCT4QJ7a">the Neurobagel discord server</a> for support.</p>
+<p><br></p>
+<h3 id="why-this-helps">Why this helps</h3>
+<ul>
+<li>Produces a consistent, machine‑readable data dictionary for each cohort.  </li>
+<li>Reduces human error compared to manual data dictionaries (if you make a mistake during annotation, you can simply load your data dictionary into the tool again and correct it)</li>
+<li>Makes datasets easier to understand, reuse, and combine.  </li>
+</ul>
+<p><strong>Interested to learn more about Neurobagel?</strong> Check out the Neurobagel documentation <a href="https://neurobagel.org/user_guide/annotation_tool/">here</a></p>
+<hr />
+<h2 id="feedback-from-early-adopters">Feedback from early adopters</h2>
+<ul>
+<li>Annotation is straightforward and user‑friendly. It typically takes under an hour for a dataset of around 100 variables. And if you cannot finish in one go, you can always save your progress and continue later (to do this, skip to the end of the process and download the data dictionary, you can upload this file again next time when you want to resume). Don't close or refresh the page while annotating!   </li>
+<li>The main time investment is <strong>the column annotation step</strong>, selecting the correct variable from the NICHY vocabulary.  </li>
+<li>Overall experience: not difficult, but requires some attention to detail.</li>
+</ul>
+<details class="info">
+<summary>Add your feedback to improve the tool</summary>
+<p>The Neurobagel team continues to improve this tool together with us. If you have an idea for an improvement or find something difficult or confusing, please use the purple button "Give us feedback" on the right edge of the screen.</p>
+</details>
+<hr />
+<h2 id="summary">Summary</h2>
+<ul>
+<li>Annotate your clinical spreadsheet using the NICHY variable list and Neurobagel tool.  </li>
+<li>Reach out to the NICHY team and join <a href="https://discord.gg/sxnCT4QJ7a">the Neurobagel discord server</a> for support.</li>
+<li>Share feedback on missing variables in the second tab of <a href="https://docs.google.com/spreadsheets/d/1ubx4VcJ8pq8DuKaEKq4oYcD3IZ0A9W9TB_aDn3oyLqE/edit?gid=0#gid=0">the NICHY variable list</a> or usability improvements with the Neurobagel team, directly through the tool.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
