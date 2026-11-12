@@ -5,12 +5,12 @@ Ongoing:
 - [Freesurfer Project](./ongoing/freesurfer.md)
 
 <br/>
-<br/>
 
 Upcoming:
 <br/>
 - [Hallucinations project](./upcoming/hallucinations.md)
 - [Brain age project](./upcoming/brainage.md)
+- [Diffusion project](./upcoming/diffusion.md)
 
 <br/>
 
