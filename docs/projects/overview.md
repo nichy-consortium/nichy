@@ -1,20 +1,14 @@
 # Overview of all projects
 
-Ongoing:
-<br/>
+### Ongoing:
 - [Freesurfer Project](./ongoing/freesurfer.md)
 
-<br/>
-
-Upcoming:
-<br/>
+### Upcoming:
 - [Hallucinations project](./upcoming/hallucinations.md)
 - [Brain age project](./upcoming/brainage.md)
 - [Diffusion project](./upcoming/diffusion.md)
 
-<br/>
 
-Do you have an idea for a project?
-<br/>
+### Do you have an idea for a project?
 [Propose a project here](./propose_a_project.md)
 
