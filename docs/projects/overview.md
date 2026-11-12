@@ -1,10 +1,16 @@
 # Overview of all projects
 
 Ongoing:
+<br/>
 - [Freesurfer Project](./ongoing/freesurfer.md)
-  
+
+<br/>
+<br/>
+
 Upcoming:
+<br/>
 - [Hallucinations project](./upcoming/hallucinations.md)
+- <br/>
 - [Brain age project](./upcoming/brainage.md)
 
 <br/>
