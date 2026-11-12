@@ -10,7 +10,6 @@ Ongoing:
 Upcoming:
 <br/>
 - [Hallucinations project](./upcoming/hallucinations.md)
-- <br/>
 - [Brain age project](./upcoming/brainage.md)
 
 <br/>
