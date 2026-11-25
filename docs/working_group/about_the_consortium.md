@@ -14,7 +14,7 @@ Key research questions addressed by NICHY include:
 - How do structural and functional brain profiles vary across NT1, NT2, and IH?
 - Can MRI-derived measures serve as future diagnostic tools to differentiate between CDH subtypes or newly proposed phenotypes?
 
-## NICHY Interview
-Learn more about the aims and progress of the consortium in our interview with Dr. Lyudmila Korostovtseva at the European Sleep Research Society conference in Maastricht (ESRS 2026).
+## ESRS Interview
+Learn more about the aims and progress of the consortium in our interview with Dr. Lyudmila Korostovtseva at the European Sleep Research Society conference in Maastricht.
 
 [Watch the interview here](https://www.youtube.com/playlist?list=OLMSMAy9mEs4wmKRkACuw6PC9GGUx1vo0Yw)
