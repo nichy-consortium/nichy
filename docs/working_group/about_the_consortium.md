@@ -17,4 +17,4 @@ Key research questions addressed by NICHY include:
 ## ESRS Interview
 Learn more about the aims and progress of the consortium in our interview with Dr. Lyudmila Korostovtseva at the European Sleep Research Society conference in Maastricht.
 
-[Watch the interview here](https://www.youtube.com/playlist?list=OLMSMAy9mEs4wmKRkACuw6PC9GGUx1vo0Yw)
+[Watch the interview here](https://www.youtube.com/watch?v=xIj7F92LlwM)
